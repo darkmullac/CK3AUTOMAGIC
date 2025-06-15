@@ -1,0 +1,5 @@
+l_english:
+ automagic_architect_manage_plan:0 "Automagic Architect"
+ automagic_architect_manage_plan_desc:0 "Conjure an enchanted plan for improving your realm."
+ automagic_architect.ok:0 "Very well"
+ automagic_architect.back:0 "Back"
