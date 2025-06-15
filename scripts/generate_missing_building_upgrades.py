@@ -1,9 +1,22 @@
 import os
 import re
+import argparse
 
 SOURCE_DIR = 'paradox_building_sourcefiles_DO_NOT_MODIFY'
 TARGET_FILE = 'common/scripted_effects/build_scripted_effect.txt'
 EXCLUDE_FILES = {'99_background_graphics_buildings.txt', '_buildings.info'}
+
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description='Generate logic to upgrade missing building tiers.'
+    )
+    parser.add_argument(
+        '--mod-root',
+        default='.',
+        help='Root path of the mod containing the common/ directory.'
+    )
+    return parser.parse_args(argv)
 
 def parse_building_chains():
     chains = {}
@@ -19,9 +32,9 @@ def parse_building_chains():
             chains.setdefault(base, set()).add(tier)
     return chains
 
-def parse_existing_effects():
+def parse_existing_effects(target_file):
     """Return mapping of building chains to tiers already handled."""
-    with open(TARGET_FILE, encoding="utf-8") as f:
+    with open(target_file, encoding="utf-8") as f:
         text = f.read()
 
     tiers_by_base = {}
@@ -52,9 +65,12 @@ def generate_logic(base, tiers, existing_tiers):
         lines.append("}")
     return "\n".join(lines)
 
-def main():
+def main(argv=None):
+    args = parse_args(argv)
+    target_file = os.path.join(args.mod_root, TARGET_FILE)
+
     chains = parse_building_chains()
-    existing = parse_existing_effects()
+    existing = parse_existing_effects(target_file)
     for base, tiers in sorted(chains.items()):
         existing_tiers = existing.get(base, set())
         logic = generate_logic(base, tiers, existing_tiers)
