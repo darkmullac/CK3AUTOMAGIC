@@ -2575,3 +2575,159 @@ auto_build.0196 = {
 		}
 	}
 }
+
+auto_build.0098 = {
+        type = character_event
+        title = auto_build.0098.t
+        desc = auto_build.0098.desc
+        hidden = yes
+        weight_multiplier = {
+                base = 1
+        }
+        override_background = {
+                reference = terrain
+        }
+        left_portrait = {
+                character = scope:root
+        }
+        option = {
+                name = auto_build.0098.a
+                every_province = {
+                        limit = {
+                                OR = {
+                                        has_holding_type = tribal_holding
+                                        has_holding_type = church_holding
+                                        has_holding_type = castle_holding
+                                        has_holding_type = city_holding
+                                        has_holding_type = church_holding
+                                }
+                                province_owner = root
+                        }
+                        add_breweries_building_effect = yes
+                }
+        }
+}
+auto_build.0274 = {
+        type = character_event
+        title = auto_build.0274.t
+        desc = auto_build.0274.desc
+        hidden = yes
+        weight_multiplier = {
+                base = 1
+        }
+        override_background = {
+                reference = terrain
+        }
+        left_portrait = {
+                character = scope:root
+        }
+        option = {
+                name = auto_build.0274.a
+                every_province = {
+                        limit = {
+                                OR = {
+                                        has_holding_type = tribal_holding
+                                        has_holding_type = church_holding
+                                        has_holding_type = castle_holding
+                                        has_holding_type = city_holding
+                                        has_holding_type = church_holding
+                                }
+                                province_owner = root
+                        }
+                        add_longhouses_building_effect = yes
+                }
+        }
+}
+auto_build.0275 = {
+        type = character_event
+        title = auto_build.0275.t
+        desc = auto_build.0275.desc
+        hidden = yes
+        weight_multiplier = {
+                base = 1
+        }
+        override_background = {
+                reference = terrain
+        }
+        left_portrait = {
+                character = scope:root
+        }
+        option = {
+                name = auto_build.0275.a
+                every_province = {
+                        limit = {
+                                OR = {
+                                        has_holding_type = tribal_holding
+                                        has_holding_type = church_holding
+                                        has_holding_type = castle_holding
+                                        has_holding_type = city_holding
+                                        has_holding_type = church_holding
+                                }
+                                province_owner = root
+                        }
+                        add_war_camps_building_effect = yes
+                }
+        }
+}
+auto_build.0276 = {
+        type = character_event
+        title = auto_build.0276.t
+        desc = auto_build.0276.desc
+        hidden = yes
+        weight_multiplier = {
+                base = 1
+        }
+        override_background = {
+                reference = terrain
+        }
+        left_portrait = {
+                character = scope:root
+        }
+        option = {
+                name = auto_build.0276.a
+                every_province = {
+                        limit = {
+                                OR = {
+                                        has_holding_type = tribal_holding
+                                        has_holding_type = church_holding
+                                        has_holding_type = castle_holding
+                                        has_holding_type = city_holding
+                                        has_holding_type = church_holding
+                                }
+                                province_owner = root
+                        }
+                        add_palisades_building_effect = yes
+                }
+        }
+}
+auto_build.0277 = {
+        type = character_event
+        title = auto_build.0277.t
+        desc = auto_build.0277.desc
+        hidden = yes
+        weight_multiplier = {
+                base = 1
+        }
+        override_background = {
+                reference = terrain
+        }
+        left_portrait = {
+                character = scope:root
+        }
+        option = {
+                name = auto_build.0277.a
+                every_province = {
+                        limit = {
+                                OR = {
+                                        has_holding_type = tribal_holding
+                                        has_holding_type = church_holding
+                                        has_holding_type = castle_holding
+                                        has_holding_type = city_holding
+                                        has_holding_type = church_holding
+                                }
+                                province_owner = root
+                        }
+                        add_market_villages_building_effect = yes
+                }
+        }
+}
