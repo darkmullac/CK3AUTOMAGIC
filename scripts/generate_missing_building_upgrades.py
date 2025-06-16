@@ -2,8 +2,10 @@ import os
 import re
 import argparse
 
-SOURCE_DIR = 'paradox_building_sourcefiles_DO_NOT_MODIFY'
-TARGET_FILE = 'common/scripted_effects/build_scripted_effect.txt'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SOURCE_DIR = os.path.join(BASE_DIR, 'paradox_building_sourcefiles_DO_NOT_MODIFY')
+DEFAULT_MOD_ROOT = os.path.join(BASE_DIR, 'Original automagic - working - not updated/3071418704')
+TARGET_FILE_NAME = os.path.join('common', 'scripted_effects', 'build_scripted_effect.txt')
 EXCLUDE_FILES = {'99_background_graphics_buildings.txt', '_buildings.info'}
 
 
@@ -65,9 +67,19 @@ def generate_logic(base, tiers, existing_tiers):
         lines.append("}")
     return "\n".join(lines)
 
+
 def main(argv=None):
     args = parse_args(argv)
     target_file = os.path.join(args.mod_root, TARGET_FILE)
+=======
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate missing building upgrade logic")
+    parser.add_argument(
+        "--mod-root",
+        default=DEFAULT_MOD_ROOT,
+        help="Path to the mod root directory containing 'common/scripted_effects'"
+    )
+    return parser.parse_args(
 
     chains = parse_building_chains()
     existing = parse_existing_effects(target_file)
