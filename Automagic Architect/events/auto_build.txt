@@ -3714,12 +3714,13 @@ trigger_event = auto_build.0273 # Hospices
 }
 
 auto_build.0001 = {
-	type = character_event
-	title = auto_build.0001.t
-	desc = auto_build.0001.desc
-	weight_multiplier = {
-		base = 1
-	}
+        type = character_event
+        title = auto_build.0001.t
+        desc = auto_build.0001.desc
+        theme = stewardship
+        weight_multiplier = {
+                base = 1
+        }
 	override_background = {
 		reference = terrain
 	}
