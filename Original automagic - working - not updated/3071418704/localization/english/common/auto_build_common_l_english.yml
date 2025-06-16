@@ -7,3 +7,5 @@
  disable_auto_build_confirm:0 "Disable"
 enable_auto_build_tooltip: "This option enables automatic construction of buildings."
 disable_auto_build_tooltip: "This option disables automatic construction of buildings."
+auto_recent_build_modifier:0 "Construction project underway"
+auto_recent_build_modifier_desc:0 "Most of the construction resources at this location have been taken up by another project."
