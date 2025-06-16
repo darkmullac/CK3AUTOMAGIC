@@ -8,6 +8,18 @@ DEFAULT_MOD_ROOT = os.path.join(BASE_DIR, 'Original automagic - working - not up
 TARGET_FILE_NAME = os.path.join('common', 'scripted_effects', 'build_scripted_effect.txt')
 EXCLUDE_FILES = {'99_background_graphics_buildings.txt', '_buildings.info'}
 
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description='Generate logic to upgrade missing building tiers.'
+    )
+    parser.add_argument(
+        '--mod-root',
+        default='.',
+        help='Root path of the mod containing the common/ directory.'
+    )
+    return parser.parse_args(argv)
+
 def parse_building_chains():
     chains = {}
     for fname in sorted(os.listdir(SOURCE_DIR)):
@@ -55,6 +67,11 @@ def generate_logic(base, tiers, existing_tiers):
         lines.append("}")
     return "\n".join(lines)
 
+
+def main(argv=None):
+    args = parse_args(argv)
+    target_file = os.path.join(args.mod_root, TARGET_FILE)
+=======
 def parse_args():
     parser = argparse.ArgumentParser(description="Generate missing building upgrade logic")
     parser.add_argument(
@@ -62,12 +79,7 @@ def parse_args():
         default=DEFAULT_MOD_ROOT,
         help="Path to the mod root directory containing 'common/scripted_effects'"
     )
-    return parser.parse_args()
-
-
-def main():
-    args = parse_args()
-    target_file = os.path.join(args.mod_root, TARGET_FILE_NAME)
+    return parser.parse_args(
 
     chains = parse_building_chains()
     existing = parse_existing_effects(target_file)
