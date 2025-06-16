@@ -1465,11 +1465,11 @@ auto_build.0500 = {
         every_province = {
             limit = {
                 # Aquí no es necesario repetir las condiciones de terreno, etc.
-                # El add_murex_farm_building_effect ya las verifica.
+                # El add_murex_farms_building_effect ya las verifica.
                 # Solo asegurar que pertenezcan al propietario actual.
                 province_owner = root
             }
-            add_murex_farm_building_effect = yes
+            add_murex_farms_building_effect = yes
         }
     }
 }
@@ -1577,7 +1577,7 @@ auto_build.1500 = {
                     is_vassal_or_below_of = root
                 }
             }
-            add_murex_farm_building_effect = yes
+            add_murex_farms_building_effect = yes
         }
     }
 }
