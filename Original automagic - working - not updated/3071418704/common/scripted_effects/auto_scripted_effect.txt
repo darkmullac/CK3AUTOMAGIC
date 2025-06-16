@@ -1,4 +1,4 @@
-﻿# 根据trait、perk等区分建造花费
+﻿# Building cost based on traits and perks
 auto_building_cost_effect = {
     if = {
         limit = {
@@ -25,7 +25,7 @@ auto_building_cost_effect = {
     }
 }
 
-auto_building_upgrade_root_effect = { #直辖自动升级
+auto_building_upgrade_root_effect = { # Auto upgrade for demesne
     random_directly_owned_province = {
         limit = {
             province_owner = root
@@ -42,7 +42,7 @@ auto_building_upgrade_root_effect = { #直辖自动升级
     }
 }
 
-auto_building_upgrade_county_effect = { #直辖伯爵领自动升级
+auto_building_upgrade_county_effect = { # Auto upgrade for directly held counties
     random_realm_province = {
         limit = {
             OR = {
@@ -64,7 +64,7 @@ auto_building_upgrade_county_effect = { #直辖伯爵领自动升级
     }
 }
 
-auto_building_upgrade_vassal_effect = { #领地自动升级
+auto_building_upgrade_vassal_effect = { # Auto upgrade for vassal territory
     random_realm_province = {
         limit = {
             OR = {
@@ -83,28 +83,28 @@ auto_building_upgrade_vassal_effect = { #领地自动升级
     }
 }
 
-auto_building_upgrade_scripted_effect = { # 自动升级effect
+auto_building_upgrade_scripted_effect = { # Auto upgrade effect
     auto_building_upgrade_effect = yes
     auto_holding_upgrade_effect = yes
 }
 
-auto_building_upgrade_effect = { # 自动升级 建筑
-    auto_building_upgrade_effect_vanilla = yes # 原版
-    auto_building_upgrade_effect_uba = yes # 奇观建筑师
-    auto_building_upgrade_effect_mbrxxx = yes # More Building系列
-    auto_building_upgrade_effect_oe = yes # 东方王朝
-    auto_building_upgrade_effect_oeex = yes # 东方王朝文化兵种拓展（你为什么要写建筑？）
-    auto_building_upgrade_effect_agot = yes # A Game of Throne 冰与火之歌
-    auto_building_upgrade_effect_hm = yes # 幻萌 一年战争
-    auto_building_upgrade_effect_comr = yes #共产宗教
+auto_building_upgrade_effect = { # Auto upgrade buildings
+    auto_building_upgrade_effect_vanilla = yes # Vanilla
+    auto_building_upgrade_effect_uba = yes # Wonder Architect
+    auto_building_upgrade_effect_mbrxxx = yes # More Building series
+    auto_building_upgrade_effect_oe = yes # Eastern Dynasty
+    auto_building_upgrade_effect_oeex = yes # Eastern Dynasty cultural unit expansion (why buildings?)
+    auto_building_upgrade_effect_agot = yes # A Game of Thrones
+    auto_building_upgrade_effect_hm = yes # Huanmeng One Year War
+    auto_building_upgrade_effect_comr = yes # Communist Religion
 }
 
-auto_holding_upgrade_effect = { # 自动升级 地产
-    auto_holding_upgrade_effect_vanilla = yes # 原版
-    auto_holding_upgrade_effect_comr = yes # 共产宗教
+auto_holding_upgrade_effect = { # Auto upgrade holdings
+    auto_holding_upgrade_effect_vanilla = yes # Vanilla
+    auto_holding_upgrade_effect_comr = yes # Communist Religion
 }
 
-auto_holding_upgrade_effect_vanilla = { # 原版的地产
+auto_holding_upgrade_effect_vanilla = { # Vanilla holdings
     if = {
         limit = { has_building_or_higher = castle_01 }
         auto_vanilla_holding_upgrade_effect_castle = { BUILDING = castle }
@@ -123,7 +123,7 @@ auto_holding_upgrade_effect_vanilla = { # 原版的地产
     }
 }
 
-auto_vanilla_holding_upgrade_effect_castle = { # 原版地产 城堡
+auto_vanilla_holding_upgrade_effect_castle = { # Vanilla holding: castle
 	if = { #castle
 		limit = {
             prev = { gold > main_building_tier_2_cost }
@@ -159,7 +159,7 @@ auto_vanilla_holding_upgrade_effect_castle = { # 原版地产 城堡
 	}
 }
 
-auto_vanilla_holding_upgrade_effect_city = { # 原版地产 城市/神殿
+auto_vanilla_holding_upgrade_effect_city = { # Vanilla holding: city/temple
 	if = { #city/temple
 		limit = {
             prev = { gold > main_building_tier_2_cost }
@@ -212,7 +212,7 @@ auto_vanilla_holding_upgrade_effect_city = { # 原版地产 城市/神殿
 	}
 }
 
-auto_vanilla_holding_upgrade_effect_tribe = { # 原版地产 部落
+auto_vanilla_holding_upgrade_effect_tribe = { # Vanilla holding: tribe
     if = { #tribal
 		limit = {
             prev = { 
@@ -232,7 +232,7 @@ auto_vanilla_holding_upgrade_effect_tribe = { # 原版地产 部落
 	}
 }
 
-auto_building_upgrade_effect_vanilla = { # 原版的建筑
+auto_building_upgrade_effect_vanilla = { # Vanilla buildings
     # economy
     if = {
         limit = { has_building_or_higher = caravanserai_01 }
@@ -393,7 +393,7 @@ auto_building_upgrade_effect_vanilla = { # 原版的建筑
         limit = { has_building_or_higher = breweries_01 }
         auto_common_building_upgrade_effect = { BUILDING = breweries }
     }
-    if = { # 巨石阵建造要求不同，但是单独写一个有点麻烦，就这样了
+    if = { # Stonehenge has different requirements, handled here for convenience
         limit = { has_building_or_higher = megalith_01 }
         auto_common_building_upgrade_effect = { BUILDING = megalith }
     }
@@ -591,7 +591,7 @@ auto_military_building_upgrade_effect = {
 	}
 }
 
-auto_military_building_upgrade_effect_2 = { #6级不需要君主军械库的
+auto_military_building_upgrade_effect_2 = { # Level 6 does not require Royal Armory
 	if = {
 		limit = {
             prev = { gold > abacommon_building_tier_2_cost }
