@@ -183,11 +183,18 @@ aba_building_upgrade_effect_mbrxxx = {
 }
 
 aba_mbrxxx_building_upgrade_effect = {
-    # Add your upgrade logic for MBRXXX chain here
+    # Generic wrapper used by the MBRXXX building chain.
+    # Delegates to Automagic's helper effects so the passed BUILDING
+    # value is upgraded regardless of its category.
+    aba_economy_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_military_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_fortification_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_default_building_upgrade_effect = { BUILDING = BUILDING }
 }
 
 aba_mbrxxx_tribal_building_upgrade_effect = {
-    # Add your tribal building upgrade logic here
+    # Wrapper for tribal structures added by the MBRXXX mod.
+    aba_tribal_building_upgrade_effect = { BUILDING = BUILDING }
 }
 
 # ----------------------------
@@ -209,7 +216,10 @@ aba_building_upgrade_effect_oe = {
     }
 }
 aba_oe_building_upgrade_effect = {
-    # Add Orient Empires specific upgrade logic here
+    # Upgrades Orient Empires buildings using Automagic's standard logic.
+    aba_economy_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_fortification_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_default_building_upgrade_effect = { BUILDING = BUILDING }
 }
 
 # ----------------------------
@@ -224,10 +234,14 @@ aba_building_upgrade_effect_oeex = {
     # Add further blocks for additional OEEX buildings if needed
 }
 aba_oeex_building_upgrade_effect = {
-    # Add OEEX upgrade logic here
+    # Handles upgrades for the Orient Empires Expansion pack.
+    aba_economy_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_fortification_building_upgrade_effect = { BUILDING = BUILDING }
+    aba_default_building_upgrade_effect = { BUILDING = BUILDING }
 }
 aba_oeex_tribal_building_upgrade_effect = {
-    # Add OEEX tribal upgrade logic here
+    # Applies tribal upgrade logic for OEEX specific chains.
+    aba_tribal_building_upgrade_effect = { BUILDING = BUILDING }
 }
 
 # ----------------------------
