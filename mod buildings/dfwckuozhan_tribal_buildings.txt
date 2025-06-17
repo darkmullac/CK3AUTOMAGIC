@@ -1,0 +1,709 @@
+﻿dingjudian_01 = { #定居点
+	construction_time = 1095
+
+	is_enabled = {
+     always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		NOT = {
+			terrain = jungle
+	}
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+		scope:holder = {
+			has_government = tribal_government
+		}
+		scope:holder = {
+			has_government = ulus_government
+		}
+	}
+	}	
+	
+    cost_prestige = 200
+	cost_gold = 85
+	
+	levy = 150
+	max_garrison = 100
+ 
+    character_modifier = {
+        monthly_prestige = 0.1
+    }
+    province_modifier = {
+		monthly_income = 0.1
+		supply_limit = 200
+		fort_level = -1
+		travel_danger = -1
+    }
+    county_modifier = {
+#		monthly_county_control_change_add = 0.1
+    }
+    
+	next_building = dingjudian_02
+	
+	type_icon = "icon_building_militia.dds" #works
+	
+	ai_value = {
+		base = 1
+	}
+}
+
+dingjudian_02 = { 
+	construction_time = slow_construction_time
+
+	is_enabled = {
+     always = yes
+	}
+	
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+		scope:holder = {
+			has_government = tribal_government
+		}
+		scope:holder = {
+			has_government = ulus_government
+		}
+	}
+	}	
+	
+    cost_prestige = 300
+	cost_gold = 120
+	
+	levy = 300
+	max_garrison = 200
+ 
+    character_modifier = {
+		monthly_prestige = 0.15
+
+    }
+    province_modifier = {
+		monthly_income = 0.3
+		supply_limit = 300
+		travel_danger = -2
+    }
+    county_modifier = {
+		monthly_county_control_change_add = 0.1
+    }
+    
+	next_building = dingjudian_03
+	
+	type_icon = "icon_building_militia.dds" #works
+	
+	ai_value = {
+		base = 2
+	}
+}
+
+
+dingjudian_03 = { 
+	construction_time = 3650
+
+	is_enabled = {
+		always = yes
+	   }
+	   
+	can_construct_potential = {
+		   has_building_or_higher = tribe_02
+   
+	}
+	can_construct_showing_failures_only = {
+		OR = {
+		scope:holder = {
+		   has_government = tribal_government
+		}
+		scope:holder = {
+		   has_government = ulus_government
+	   }
+   }   
+}	
+	
+    cost_prestige = 500
+	cost_gold = 200
+	
+	levy = 450
+	max_garrison = 300
+ 
+    character_modifier = {
+		monthly_prestige = 0.15
+#    	monthly_county_control_change_add = 0.1
+		knight_limit = 1
+#		knight_effectiveness_mult = 0.3
+        vassal_opinion = -3 
+    }
+    province_modifier = {
+		monthly_income = 0.8
+		supply_limit = 500
+        defender_holding_advantage = 2
+        fort_level = 1
+		travel_danger = -3
+    }
+    county_modifier = {
+        monthly_county_control_change_add = 0.1
+    }
+    
+	
+	type_icon = "icon_building_militia.dds" #works
+	
+	ai_value = {
+		base = 2
+	}
+}
+
+muchang_01 = { #牧场
+	construction_time = 1095
+
+	is_enabled = {
+		always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		building_muchang_requirement_terrain = yes
+		OR = {
+			scope:holder = {
+				culture = { has_cultural_parameter = unlock_maa_horse_archers }
+		}
+	}
+}
+	
+	can_construct_showing_failures_only = {
+
+	}
+	
+	cost_prestige = 225
+	cost_gold = 75
+	
+	levy = 50
+	max_garrison = 25
+
+	character_modifier = {
+		light_cavalry_damage_mult = 0.02
+#		light_cavalry_pursuit_mult = 0.04
+#		light_cavalry_screen_mult = 0.02
+		light_cavalry_toughness_mult = 0.04
+		archer_cavalry_screen_mult = 0.02
+		archer_cavalry_damage_mult = 0.04
+		archer_cavalry_toughness_mult = 0.02
+		archer_cavalry_pursuit_mult = 0.04
+#		light_cavalry_maintenance_mult = -0.05
+#		light_cavalry_recruitment_cost_mult = -0.05
+#		archer_cavalry_maintenance_mult = -0.05
+#		archer_cavalry_recruitment_cost_mult = -0.05
+#		movement_speed = 0.05
+#	    steppe_advantage = 1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.2
+	}
+
+	
+	next_building = muchang_02
+	
+	type_icon = "icon_building_muchang.dds" #works
+	
+	ai_value = {
+		base = 18
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		ai_stacking_bonus_camel_farms_modifier = yes
+		ai_stacking_bonus_hillside_grazing_modifier = yes
+		ai_stacking_bonus_stables_modifier = yes
+		ai_anti_synergy_armored_infantry_modifier = yes
+		ai_anti_synergy_light_infantry_modifier = yes
+		ai_archer_cavalry_modifier = yes
+		ai_light_cavalry_modifier = yes
+		modifier = {
+			factor = 0
+			building_regimental_grounds_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = regimental_grounds_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_farm_estates_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = farm_estates_01
+			}
+		}
+		modifier = {
+			factor = 0
+			building_orchards_requirement_terrain = yes
+			NOT = {
+				has_building_or_higher = orchards_01
+			}
+		}
+		modifier = {
+			add = -9
+			has_building_or_higher = city_01
+		}
+	}
+}
+
+muchang_02 = {
+	construction_time = 1825
+
+	is_enabled = {
+		always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		building_muchang_requirement_terrain = yes
+		OR = {
+			scope:holder = {
+				culture = { has_cultural_parameter = unlock_maa_horse_archers }
+			}
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+
+	}
+	
+	cost_prestige = 350
+	cost_gold = 175 #150
+	
+	levy = 150
+	max_garrison = 100
+
+	character_modifier = {
+#	    monthly_prestige = -0.2
+		light_cavalry_damage_mult = 0.04
+#		light_cavalry_pursuit_mult = 0.08
+#		light_cavalry_screen_mult = 0.04
+		light_cavalry_toughness_mult = 0.08
+		archer_cavalry_screen_mult = 0.04
+		archer_cavalry_damage_mult = 0.08
+		archer_cavalry_toughness_mult = 0.04
+		archer_cavalry_pursuit_mult = 0.08
+#		raid_speed = 0.25
+#		vassal_opinion = 3
+		archer_cavalry_max_size_add = 1
+		light_cavalry_max_size_add = 1
+		light_cavalry_maintenance_mult = -0.05
+		light_cavalry_recruitment_cost_mult = -0.05
+		archer_cavalry_maintenance_mult = -0.05
+		archer_cavalry_recruitment_cost_mult = -0.05
+#		movement_speed = 0.1
+#	    steppe_advantage = 2
+		knight_limit = 1
+	}
+	
+	province_modifier = {
+		monthly_income = 0.3
+	}
+
+	
+	next_building = muchang_03
+	
+	type_icon = "icon_building_muchang.dds" #works
+	
+	ai_value = {
+		base = 8
+	}
+}
+
+
+muchang_03 = {
+	construction_time = 2555
+
+	is_enabled = {
+		always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_02
+		building_muchang_requirement_terrain = yes
+		OR = {
+			scope:holder = {
+				culture = { has_cultural_parameter = unlock_maa_horse_archers }
+		}
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+
+	}
+	
+	cost_prestige = 700
+	cost_gold = 360 #250
+	
+	levy = 200
+	max_garrison = 150
+
+	character_modifier = {
+	    #Add a court grandeur bonus
+		court_grandeur_baseline_add = 4
+#		monthly_prestige_gain_mult = -0.10
+#		monthly_prestige = -0.4
+#		vassal_opinion = 5
+		light_cavalry_damage_mult = 0.08
+#		light_cavalry_pursuit_mult = 0.16
+#		light_cavalry_screen_mult = 0.08
+		light_cavalry_toughness_mult = 0.16
+		archer_cavalry_screen_mult = 0.08
+		archer_cavalry_damage_mult = 0.16
+		archer_cavalry_toughness_mult = 0.08
+		archer_cavalry_pursuit_mult = 0.16
+		knight_limit = 2
+		knight_effectiveness_mult = 0.2
+#		raid_speed = 0.5
+		men_at_arms_cap = 1
+#		men_at_arms_maintenance = 0.05
+		archer_cavalry_max_size_add = 2
+		light_cavalry_max_size_add = 2
+		light_cavalry_maintenance_mult = -0.05
+		light_cavalry_recruitment_cost_mult = -0.05
+		archer_cavalry_maintenance_mult = -0.05
+		archer_cavalry_recruitment_cost_mult = -0.05
+#		movement_speed = 0.1
+#	    steppe_advantage = 3
+	}
+	
+	province_modifier = {
+		monthly_income = 0.5
+		 fort_level = 1
+	}
+
+	
+	type_icon = "icon_building_muchang.dds" #works
+	
+	ai_value = {
+		base = 3
+	}
+}
+
+gaoshanjudian_01 = { #高山据点
+	construction_time = 730
+
+	is_enabled = {
+		always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		building_gaoshanjudian_requirement_terrain = yes
+		OR = {
+			scope:holder = {
+				culture = { has_cultural_parameter = unlock_maa_horse_archers }
+		}
+	}
+}
+	
+	can_construct_showing_failures_only = {
+
+	}
+	
+	cost_prestige = 100
+	cost_gold = 45
+	
+	levy = 25
+	max_garrison = 25
+
+	character_modifier = {
+		diplomatic_range_mult = 0.05
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = 0.1
+		stationed_maa_screen_mult = 0.1
+		monthly_income = -0.1
+		fort_level = 1
+		travel_danger = -1
+	}
+
+    county_modifier = {
+        monthly_county_control_change_add = 0.1
+    }
+	
+	next_building = gaoshanjudian_02
+	
+	type_icon = "icon_building_gsjd.dds" #works
+	
+	ai_value = {
+		base = 2
+	}
+}
+
+gaoshanjudian_02 = { 
+	construction_time = 730
+
+	is_enabled = {
+		always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		building_gaoshanjudian_requirement_terrain = yes
+		OR = {
+			scope:holder = {
+				culture = { has_cultural_parameter = unlock_maa_horse_archers }
+		}
+	}
+}
+	
+	can_construct_showing_failures_only = {
+
+	}
+	
+	cost_prestige = 200
+	cost_gold = 75
+	
+	levy = 55
+	max_garrison = 55
+
+	character_modifier = {
+		diplomatic_range_mult = 0.05
+#		movement_speed = 0.1
+		monthly_piety = 0.1
+		
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = 0.15
+		stationed_maa_screen_mult = 0.15
+		monthly_income = -0.3
+		fort_level = 1
+		travel_danger = -2
+	}
+
+    county_modifier = {
+        monthly_county_control_change_add = 0.1
+    }
+	
+	next_building = gaoshanjudian_03
+	
+	type_icon = "icon_building_gsjd.dds" #works
+	
+	ai_value = {
+		base = 1
+	}
+}
+gaoshanjudian_03 = { 
+	construction_time = 1460
+
+	is_enabled = {
+		always = yes
+	}
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_02
+		building_gaoshanjudian_requirement_terrain = yes
+		OR = {
+			scope:holder = {
+				culture = { has_cultural_parameter = unlock_maa_horse_archers }
+		}
+		}
+	}
+	
+	can_construct_showing_failures_only = {
+	}
+	
+	cost_prestige = 300
+	cost_gold = 90
+	
+	levy = 75
+	max_garrison = 75
+
+	character_modifier = {
+		diplomatic_range_mult = 0.1
+#		movement_speed = 0.05
+		monthly_piety = 0.3
+#       light_cavalry_pursuit_mult = 0.25
+#		archer_cavalry_pursuit_mult = 0.25
+		clergy_opinion = 2
+        monthly_prestige = -0.3
+	}
+	
+	province_modifier = {
+		stationed_maa_toughness_mult = 0.25
+		stationed_maa_screen_mult = 0.25
+		monthly_income = -0.5
+		fort_level = 2
+		travel_danger = -2
+	}
+
+    county_modifier = {
+        monthly_county_control_change_add = 0.2
+    }
+	
+	
+	type_icon = "icon_building_gsjd.dds" #works
+	
+	ai_value = {
+		base = 1
+	}
+}
+
+
+conglinliechang_01 = { #丛林猎场
+	construction_time = 1095
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		governments = { tribal_government }
+			terrain = jungle
+
+		geographical_region = world_asia_southeast #东南亚地区
+}
+	
+    cost_prestige = 200
+	cost_gold = 55
+	
+	levy = 50
+	max_garrison = 25
+ 
+    character_modifier = {
+        monthly_prestige = 0.1
+    }
+    province_modifier = {
+		monthly_income = 0.1
+		supply_limit = 100
+    }
+    county_modifier = {
+		county_opinion_add = 2
+    }
+    
+	next_building = conglinliechang_02
+	
+	type_icon = "icon_building_hunting_grounds.dds" #works
+	
+	ai_value = {
+		base = 3
+	}
+}
+
+conglinliechang_02 = {
+	construction_time = 1095
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_01
+		governments = { tribal_government }
+			terrain = jungle
+
+		geographical_region = world_asia_southeast #东南亚地区
+}
+	
+    cost_prestige = 250
+	cost_gold = 75
+	
+	levy = 50
+	max_garrison = 25
+ 
+    character_modifier = {
+        monthly_prestige = 0.1
+		jungle_advantage = 1
+    }
+    province_modifier = {
+		stationed_skirmishers_toughness_mult = 0.2
+		stationed_archers_toughness_mult = 0.2
+		monthly_income = 0.2
+		supply_limit = 150
+		defender_holding_advantage = 2
+    }
+    county_modifier = {
+		county_opinion_add = 2
+    }
+    
+	next_building = conglinliechang_03
+	
+	type_icon = "icon_building_hunting_grounds.dds" #works
+	
+	ai_value = {
+		base = 1
+	}
+}
+
+conglinliechang_03 = {
+	construction_time = 1460
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_02
+		governments = { tribal_government }
+			terrain = jungle
+
+		geographical_region = world_asia_southeast #东南亚地区
+}
+	
+    cost_prestige = 300
+	cost_gold = 100
+	
+	levy = 120
+	max_garrison = 75
+ 
+    character_modifier = {
+        monthly_prestige = 0.15
+		jungle_advantage = 1
+    }
+    province_modifier = {
+		stationed_skirmishers_damage_mult = 0.4
+		stationed_skirmishers_toughness_mult = 0.2
+		stationed_archers_damage_mult = 0.4
+		stationed_archers_toughness_mult = 0.2
+		monthly_income = 0.2
+		supply_limit = 150
+		defender_holding_advantage = 2
+		levy_reinforcement_rate = 0.2
+    }
+    county_modifier = {
+		county_opinion_add = -5
+    }
+    
+	next_building = conglinliechang_04
+	
+	type_icon = "icon_building_hunting_grounds.dds" #works
+	
+	ai_value = {
+		base = 1
+	}
+}
+
+conglinliechang_04 = {
+	construction_time = 1460
+
+	can_construct_potential = {
+		has_building_or_higher = tribe_02
+		governments = { tribal_government }
+			terrain = jungle
+
+		geographical_region = world_asia_southeast #东南亚地区
+	}
+	
+    cost_prestige = 300
+	cost_gold = 150
+	
+	levy = 150
+	max_garrison = 100
+ 
+    character_modifier = {
+        monthly_prestige = 0.2
+		jungle_advantage = 2
+    }
+    province_modifier = {
+		stationed_skirmishers_damage_mult = 0.7
+		stationed_skirmishers_toughness_mult = 0.3
+		stationed_archers_damage_mult = 0.7
+		stationed_archers_toughness_mult = 0.3
+		monthly_income = 0.3
+		supply_limit = 200
+		defender_holding_advantage = 4
+		levy_reinforcement_rate = 0.3
+    }
+    county_modifier = {
+		county_opinion_add = -5
+    }
+	
+	type_icon = "icon_building_hunting_grounds.dds" #works
+	
+	ai_value = {
+		base = 1
+	}
+}
