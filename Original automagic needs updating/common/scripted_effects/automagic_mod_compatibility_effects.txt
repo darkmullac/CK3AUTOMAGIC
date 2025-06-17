@@ -4,7 +4,7 @@
 
 cmagic_building_upgrade_effect_mbrxxx = {
     if = {
-        limit = { mod_is_active = "MBRXXX" }
+        limit = { mod_is_active = { MOD = "MBRXXX" } }
         # Economy
         if = {
             limit = { has_building_or_higher = militia_01 }
@@ -297,7 +297,7 @@ cmagic_oe_building_upgrade_effect = {
 
 cmagic_building_upgrade_effect_oeex = {
     if = {
-        limit = { mod_is_active = "OEEX" }
+        limit = { mod_is_active = { MOD = "OEEX" } }
         if = {
             limit = { has_building_or_higher = qianmutian_01 }
             cmagic_oeex_building_upgrade_effect = { BUILDING = qianmutian }
