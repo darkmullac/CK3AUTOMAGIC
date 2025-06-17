@@ -2,183 +2,203 @@
 # More Buildings Reboot
 # ----------------------------
 
-aba_building_upgrade_effect_mbrxxx = { 
-    # Economy
+aba_building_upgrade_effect_mbrxxx = {
     if = {
-        limit = { has_building_or_higher = militia_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = militia }
-    }
-    if = {
-        limit = { has_building_or_higher = improvement_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = improvement }
-    }
-    if = {
-        limit = { has_building_or_higher = town_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = town }
-    }
-    if = {
-        limit = { has_building_or_higher = district_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = district }
-    }
-    if = {
-        limit = { has_building_or_higher = hospital_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = hospital }
-    }
-    if = {
-        limit = { has_building_or_higher = farming_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = farming }
-    }
-    # Military
-    if = {
-        limit = { has_building_or_higher = horse_01 }
-        aba_military_building_upgrade_effect = { BUILDING = horse }
-    }
-    if = {
-        limit = { has_building_or_higher = MBRXXX_horse_archer_01 }
-        aba_military_building_upgrade_effect = { BUILDING = MBRXXX_horse_archer }
-    }
-    if = {
-        limit = { has_building_or_higher = MBRXXX_camel_01 }
-        aba_military_building_upgrade_effect = { BUILDING = MBRXXX_camel }
-    }
-    # Fortification
-    if = {
-        limit = { has_building_or_higher = expansion_01 }
-        aba_fortification_building_upgrade_effect = { BUILDING = expansion }
-    }
-    if = {
-        limit = { has_building_or_higher = expansion_camel_cavalry_01 }
-        aba_fortification_building_upgrade_effect = { BUILDING = expansion_camel_cavalry }
-    }
-    if = {
-        limit = { has_building_or_higher = expansion_archer_cavalry_01 }
-        aba_fortification_building_upgrade_effect = { BUILDING = expansion_archer_cavalry }
-    }
-    if = {
-        limit = { has_building_or_higher = interior_01 }
-        aba_fortification_building_upgrade_effect = { BUILDING = interior }
-    }
-    if = {
-        limit = { has_building_or_higher = support_01 }
-        aba_fortification_building_upgrade_effect = { BUILDING = support }
-    }
-    # Tribal
-    if = {
-        limit = { has_building_or_higher = Townsquare_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = Townsquare }
-    }
-    if = {
-        limit = { has_building_or_higher = tribeport_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = tribeport }
-    }
-    if = {
-        limit = { has_building_or_higher = war_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = war }
-    }
-    if = {
-        limit = { has_building_or_higher = raiding_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = raiding }
-    }
-    if = {
-        limit = { has_building_or_higher = medicine_lodge_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = medicine_lodge }
-    }
-    if = {
-        limit = { has_building_or_higher = liehu_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = liehu }
-    }
-    if = {
-        limit = { has_building_or_higher = car_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = car }
-    }
-    if = {
-        limit = { has_building_or_higher = pimao_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = pimao }
-    }
-    if = {
-        limit = { has_building_or_higher = zhanshi_01 }
-        aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = zhanshi }
-    }
-    # More Buildings ++
-    if = {
-        limit = { has_building_or_higher = slaughterhouse_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = slaughterhouse }
-    }
-    if = {
-        limit = { has_building_or_higher = vineyard_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = vineyard }
-    }
-    if = {
-        limit = { has_building_or_higher = tunnel_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = tunnel }
-    }
-    if = {
-        limit = { has_building_or_higher = plain_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = plain }
-    }
-    if = {
-        limit = { has_building_or_higher = czhen_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = czhen }
-    }
-    if = {
-        limit = { has_building_or_higher = muhou_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = muhou }
-    }
-    if = {
-        limit = { has_building_or_higher = silk_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = silk }
-    }
-    if = {
-        limit = { has_building_or_higher = restau_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = restau }
-    }
-    if = {
-        limit = { has_building_or_higher = supm_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = supm }
-    }
-    if = {
-        limit = { has_building_or_higher = mif_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = mif }
-    }
-    if = {
-        limit = { has_building_or_higher = lcamp_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = lcamp }
-    }
-    if = {
-        limit = { has_building_or_higher = hbm_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = hbm }
-    }
-    if = {
-        limit = { has_building_or_higher = tavern_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = tavern }
-    }
-    if = {
-        limit = { has_building_or_higher = stash_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = stash }
-    }
-    if = {
-        limit = { has_building_or_higher = spice_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = spice }
-    }
-    if = {
-        limit = { has_building_or_higher = crockery_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = crockery }
-    }
-    if = {
-        limit = { has_building_or_higher = currier_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = currier }
-    }
-    if = {
-        limit = { has_building_or_higher = waterfront_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = waterfront }
-    }
-    if = {
-        limit = { has_building_or_higher = shanqiu_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = shanqiu }
-    }
-    if = {
-        limit = { has_building_or_higher = fayuan_01 }
-        aba_economy_building_upgrade_effect = { BUILDING = fayuan }
+        limit = { mod_is_active = "MBRXXX" }
+        # Economy
+        if = {
+            limit = { has_building_or_higher = militia_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = militia }
+        }
+        if = {
+            limit = { has_building_or_higher = improvement_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = improvement }
+        }
+        if = {
+            limit = { has_building_or_higher = town_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = town }
+        }
+        if = {
+            limit = { has_building_or_higher = district_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = district }
+        }
+        if = {
+            limit = { has_building_or_higher = hospital_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = hospital }
+        }
+        if = {
+            limit = { has_building_or_higher = farming_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = farming }
+        }
+        # Military
+        if = {
+            limit = { has_building_or_higher = horse_01 }
+            aba_military_building_upgrade_effect = { BUILDING = horse }
+        }
+        if = {
+            limit = { has_building_or_higher = MBRXXX_horse_archer_01 }
+            aba_military_building_upgrade_effect = { BUILDING = MBRXXX_horse_archer }
+        }
+        if = {
+            limit = { has_building_or_higher = MBRXXX_camel_01 }
+            aba_military_building_upgrade_effect = { BUILDING = MBRXXX_camel }
+        }
+        # Fortification
+        if = {
+            limit = { has_building_or_higher = expansion_01 }
+            aba_fortification_building_upgrade_effect = { BUILDING = expansion }
+        }
+        if = {
+            limit = { has_building_or_higher = expansion_camel_cavalry_01 }
+            aba_fortification_building_upgrade_effect = { BUILDING = expansion_camel_cavalry }
+        }
+        if = {
+            limit = { has_building_or_higher = expansion_archer_cavalry_01 }
+            aba_fortification_building_upgrade_effect = { BUILDING = expansion_archer_cavalry }
+        }
+        if = {
+            limit = { has_building_or_higher = interior_01 }
+            aba_fortification_building_upgrade_effect = { BUILDING = interior }
+        }
+        if = {
+            limit = { has_building_or_higher = support_01 }
+            aba_fortification_building_upgrade_effect = { BUILDING = support }
+        }
+        # Tribal
+        if = {
+            limit = { has_building_or_higher = Townsquare_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = Townsquare }
+        }
+        if = {
+            limit = { has_building_or_higher = tribeport_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = tribeport }
+        }
+        if = {
+            limit = { has_building_or_higher = war_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = war }
+        }
+        if = {
+            limit = { has_building_or_higher = raiding_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = raiding }
+        }
+        if = {
+            limit = { has_building_or_higher = medicine_lodge_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = medicine_lodge }
+        }
+        if = {
+            limit = { has_building_or_higher = liehu_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = liehu }
+        }
+        if = {
+            limit = { has_building_or_higher = car_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = car }
+        }
+        if = {
+            limit = { has_building_or_higher = pimao_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = pimao }
+        }
+        if = {
+            limit = { has_building_or_higher = zhanshi_01 }
+            aba_mbrxxx_tribal_building_upgrade_effect = { BUILDING = zhanshi }
+        }
+        # More Buildings ++
+        if = {
+            limit = { has_building_or_higher = slaughterhouse_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = slaughterhouse }
+        }
+        if = {
+            limit = { has_building_or_higher = vineyard_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = vineyard }
+        }
+        if = {
+            limit = { has_building_or_higher = tunnel_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = tunnel }
+        }
+        if = {
+            limit = { has_building_or_higher = plain_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = plain }
+        }
+        if = {
+            limit = { has_building_or_higher = czhen_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = czhen }
+        }
+        if = {
+            limit = { has_building_or_higher = muhou_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = muhou }
+        }
+        if = {
+            limit = { has_building_or_higher = silk_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = silk }
+        }
+        if = {
+            limit = { has_building_or_higher = restau_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = restau }
+        }
+        if = {
+            limit = { has_building_or_higher = supm_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = supm }
+        }
+        if = {
+            limit = { has_building_or_higher = mif_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = mif }
+        }
+        if = {
+            limit = { has_building_or_higher = lcamp_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = lcamp }
+        }
+        if = {
+            limit = { has_building_or_higher = hbm_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = hbm }
+        }
+        if = {
+            limit = { has_building_or_higher = tavern_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = tavern }
+        }
+        if = {
+            limit = { has_building_or_higher = stash_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = stash }
+        }
+        if = {
+            limit = { has_building_or_higher = spice_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = spice }
+        }
+        if = {
+            limit = { has_building_or_higher = crockery_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = crockery }
+        }
+        if = {
+            limit = { has_building_or_higher = currier_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = currier }
+        }
+        if = {
+            limit = { has_building_or_higher = waterfront_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = waterfront }
+        }
+        if = {
+            limit = { has_building_or_higher = shanqiu_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = shanqiu }
+        }
+        if = {
+            limit = { has_building_or_higher = fayuan_01 }
+            aba_economy_building_upgrade_effect = { BUILDING = fayuan }
+        }
+        # Compatibility: More Buildings Reboot
+        if = {
+            limit = { has_building_or_higher = civil_engineering_01 }
+            aba_mbrxxx_building_upgrade_effect = { BUILDING = civil_engineering }
+        }
+        if = {
+            limit = { has_building_or_higher = embassy_01 }
+            aba_mbrxxx_building_upgrade_effect = { BUILDING = embassy }
+        }
+        if = {
+            limit = { has_building_or_higher = heishi_01 }
+            aba_mbrxxx_building_upgrade_effect = { BUILDING = heishi }
+        }
+        if = {
+            limit = { has_building_or_higher = ting_01 }
+            aba_mbrxxx_building_upgrade_effect = { BUILDING = ting }
+        }
     }
 }
 
@@ -214,6 +234,55 @@ aba_building_upgrade_effect_oe = {
         limit = { has_building_or_higher = silk_plantation_01 }
         aba_oe_building_upgrade_effect = { BUILDING = silk_plantation }
     }
+    # Compatibility: Orient Empires
+    if = {
+        limit = { has_building_or_higher = becp_regular_junyao_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = becp_regular_junyao }
+    }
+    if = {
+        limit = { has_building_or_higher = becp_regular_yueyao_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = becp_regular_yueyao }
+    }
+    if = {
+        limit = { has_building_or_higher = daye_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = daye_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = gold_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = gold_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = jiaodong_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = jiaodong_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = liaodong_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = liaodong_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = sea_salt_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = sea_salt_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = shaozhou_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = shaozhou_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = shoushan_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = shoushan_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = silver_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = silver_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = taiyuan_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = taiyuan_mines }
+    }
+    if = {
+        limit = { has_building_or_higher = weicheng_mines_01 }
+        aba_oe_building_upgrade_effect = { BUILDING = weicheng_mines }
+    }
 }
 aba_oe_building_upgrade_effect = {
     # Upgrades Orient Empires buildings using Automagic's standard logic.
@@ -228,10 +297,13 @@ aba_oe_building_upgrade_effect = {
 
 aba_building_upgrade_effect_oeex = {
     if = {
-        limit = { has_building_or_higher = qianmutian_01 }
-        aba_oeex_building_upgrade_effect = { BUILDING = qianmutian }
+        limit = { mod_is_active = "OEEX" }
+        if = {
+            limit = { has_building_or_higher = qianmutian_01 }
+            aba_oeex_building_upgrade_effect = { BUILDING = qianmutian }
+        }
+        # Add further blocks for additional OEEX buildings if needed
     }
-    # Add further blocks for additional OEEX buildings if needed
 }
 aba_oeex_building_upgrade_effect = {
     # Handles upgrades for the Orient Empires Expansion pack.
@@ -276,4 +348,106 @@ aba_building_upgrade_effect_agot = {
         limit = { has_building_or_higher = godswood_01 }
         aba_default_building_upgrade_effect = { BUILDING = godswood }
     }
+}
+
+# ----------------------------
+# Compatibility: dfwckuozhan
+# ----------------------------
+
+aba_building_upgrade_effect_dfwckuozhan = {
+    if = {
+        limit = { has_building_or_higher = a_heitudi_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = a_heitudi }
+    }
+    if = {
+        limit = { has_building_or_higher = bunudui_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = bunudui }
+    }
+    if = {
+        limit = { has_building_or_higher = changshanyuchang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = changshanyuchang }
+    }
+    if = {
+        limit = { has_building_or_higher = chayuan_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = chayuan }
+    }
+    if = {
+        limit = { has_building_or_higher = conglinliechang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = conglinliechang }
+    }
+    if = {
+        limit = { has_building_or_higher = curtain_walls_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = curtain_walls }
+    }
+    if = {
+        limit = { has_building_or_higher = dingjudian_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = dingjudian }
+    }
+    if = {
+        limit = { has_building_or_higher = dongfangchengqiang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = dongfangchengqiang }
+    }
+    if = {
+        limit = { has_building_or_higher = gaoshanjudian_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = gaoshanjudian }
+    }
+    if = {
+        limit = { has_building_or_higher = heitudi_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = heitudi }
+    }
+    if = {
+        limit = { has_building_or_higher = huaxia_guanai_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = huaxia_guanai }
+    }
+    if = {
+        limit = { has_building_or_higher = jiaochang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = jiaochang }
+    }
+    if = {
+        limit = { has_building_or_higher = lutaiyanchang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = lutaiyanchang }
+    }
+    if = {
+        limit = { has_building_or_higher = muchang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = muchang }
+    }
+    if = {
+        limit = { has_building_or_higher = nulishichang_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = nulishichang }
+    }
+    if = {
+        limit = { has_building_or_higher = qishizhihua_regimental_grounds_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = qishizhihua_regimental_grounds }
+    }
+    if = {
+        limit = { has_building_or_higher = regimental_grounds_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = regimental_grounds }
+    }
+    if = {
+        limit = { has_building_or_higher = shanhaiguan_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = shanhaiguan }
+    }
+    if = {
+        limit = { has_building_or_higher = shutian_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = shutian }
+    }
+    if = {
+        limit = { has_building_or_higher = weibojun_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = weibojun }
+    }
+    if = {
+        limit = { has_building_or_higher = xinzeng_01_yidao_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = xinzeng_01_yidao }
+    }
+    if = {
+        limit = { has_building_or_higher = xinzeng_02_yidao_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = xinzeng_02_yidao }
+    }
+    if = {
+        limit = { has_building_or_higher = xinzeng_03_yidao_01 }
+        aba_dfwckuozhan_building_upgrade_effect = { BUILDING = xinzeng_03_yidao }
+    }
+}
+aba_dfwckuozhan_building_upgrade_effect = {
+    # Add dfwckuozhan specific upgrade logic here
 }
