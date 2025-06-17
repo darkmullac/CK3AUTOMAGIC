@@ -107,7 +107,7 @@
         add_building = hillside_grazing_08
         prev = { remove_short_term_gold = cheap_building_tier_8_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 # breweries
@@ -223,7 +223,7 @@ add_breweries_building_effect = {
         add_building = breweries_08
         prev = { remove_short_term_gold = normal_building_tier_8_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_murex_farms_building_effect = {
@@ -317,7 +317,7 @@ add_murex_farms_building_effect = {
         add_building = murex_farm_08
         prev = { remove_short_term_gold = normal_building_tier_8_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_pastures_building_effect = {
@@ -432,7 +432,7 @@ add_pastures_building_effect = {
         add_building = pastures_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_hospices_building_effect = {
@@ -539,7 +539,7 @@ add_hospices_building_effect = {
         add_building = hospices_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_hunting_building_effect = {
@@ -654,7 +654,7 @@ add_hunting_building_effect = {
         add_building = hunting_grounds_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 add_qanats_building_effect = {
     if = {
@@ -746,7 +746,7 @@ add_qanats_building_effect = {
         add_building = qanats_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 add_orchards_building_effect = {
     if = {
@@ -860,7 +860,7 @@ add_orchards_building_effect = {
         add_building = orchards_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_farm_estates_building_effect = {
@@ -975,7 +975,7 @@ add_farm_estates_building_effect = {
         add_building = farm_estates_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_military_camps_building_effect = {
@@ -1090,7 +1090,7 @@ add_military_camps_building_effect = {
         add_building = military_camps_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_regimental_grounds_building_effect = {
@@ -1205,7 +1205,7 @@ add_regimental_grounds_building_effect = {
         add_building = regimental_grounds_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_ramparts_building_effect = {
@@ -1320,7 +1320,7 @@ add_ramparts_building_effect = {
         add_building = ramparts_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_curtain_walls_building_effect = {
@@ -1435,7 +1435,7 @@ add_curtain_walls_building_effect = {
         add_building = curtain_walls_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_watchtowers_building_effect = {
@@ -1550,7 +1550,7 @@ add_watchtowers_building_effect = {
         add_building = watchtowers_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_cereal_fields_building_effect = {
@@ -1665,7 +1665,7 @@ add_cereal_fields_building_effect = {
         add_building = cereal_fields_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_outposts_building_effect = {
@@ -1780,7 +1780,7 @@ add_outposts_building_effect = {
         add_building = outposts_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_barracks_building_effect = {
@@ -1895,7 +1895,7 @@ add_barracks_building_effect = {
         add_building = barracks_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_camel_farms_building_effect = {
@@ -2010,7 +2010,7 @@ add_camel_farms_building_effect = {
         add_building = camel_farms_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_logging_camps_building_effect = {
@@ -2125,7 +2125,7 @@ add_logging_camps_building_effect = {
         add_building = logging_camps_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_peat_quarries_building_effect = {
@@ -2240,7 +2240,7 @@ add_peat_quarries_building_effect = {
         add_building = peat_quarries_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_hill_farms_building_effect = {
@@ -2355,7 +2355,7 @@ add_hill_farms_building_effect = {
         add_building = hill_farms_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_elephant_pens_building_effect = {
@@ -2470,7 +2470,7 @@ add_elephant_pens_building_effect = {
         add_building = elephant_pens_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_plantations_building_effect = {
@@ -2585,7 +2585,7 @@ add_plantations_building_effect = {
         add_building = plantations_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_quarries_building_effect = {
@@ -2700,7 +2700,7 @@ add_quarries_building_effect = {
         add_building = quarries_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_hill_forts_building_effect = {
@@ -2815,7 +2815,7 @@ add_hill_forts_building_effect = {
         add_building = hill_forts_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_common_tradeport_building_effect = {
@@ -2930,7 +2930,7 @@ add_common_tradeport_building_effect = {
         add_building = common_tradeport_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_guild_halls_building_effect = {
@@ -3038,7 +3038,7 @@ add_guild_halls_building_effect = {
         add_building = guild_halls_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_castle_building_effect = {
@@ -3078,7 +3078,7 @@ add_castle_building_effect = {
         add_building = castle_04
         prev = {remove_short_term_gold = main_building_tier_4_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_city_building_effect = {
@@ -3118,7 +3118,7 @@ add_city_building_effect = {
         add_building = city_04
         prev = {remove_short_term_gold = main_building_tier_4_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_temple_building_effect = {
@@ -3158,7 +3158,7 @@ add_temple_building_effect = {
         add_building = temple_04
         prev = {remove_short_term_gold = main_building_tier_4_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_monastic_schools_building_effect = {
@@ -3265,7 +3265,7 @@ add_monastic_schools_building_effect = {
         add_building = monastic_schools_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #风车 水车
@@ -3381,7 +3381,7 @@ add_windmills_building_effect = {
         add_building = windmills_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_watermills_building_effect = {
@@ -3496,7 +3496,7 @@ add_watermills_building_effect = {
         add_building = watermills_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #商队旅馆 caravanserai
@@ -3612,7 +3612,7 @@ add_caravanserai_building_effect = {
         add_building = caravanserai_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #风炉 wind_furnace
@@ -3728,7 +3728,7 @@ add_wind_furnace_building_effect = {
         add_building = wind_furnace_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #铁匠 smiths
@@ -3837,7 +3837,7 @@ add_smiths_building_effect = {
         add_building = smiths_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #工坊 加攻城那个 workshops
@@ -3953,7 +3953,7 @@ add_workshops_building_effect = {
         add_building = workshops_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #马厩 加移速的 stables
@@ -4069,7 +4069,7 @@ add_stables_building_effect = {
         add_building = stables_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #马什么的 可能是游牧的建筑 horse_pastures
@@ -4185,7 +4185,7 @@ add_horse_pastures_building_effect = {
         add_building = horse_pastures_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 #战士营地 加追击那个 warrior_lodges
@@ -4301,7 +4301,7 @@ add_warrior_lodges_building_effect = {
         add_building = warrior_lodges_08
         prev = {remove_short_term_gold = normal_building_tier_8_cost}
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 add_walls_building_effect = {
     if = {
@@ -4342,7 +4342,7 @@ add_walls_building_effect = {
         add_building = walls_04
         prev = { remove_short_term_gold = cheap_building_tier_4_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 add_longhouses_building_effect = {
     if = {
@@ -4371,7 +4371,7 @@ add_longhouses_building_effect = {
         add_building = longhouses_02
         prev = { remove_short_term_gold = tribal_building_tier_2_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_war_camps_building_effect = {
@@ -4401,7 +4401,7 @@ add_war_camps_building_effect = {
         add_building = war_camps_02
         prev = { remove_short_term_gold = tribal_building_tier_2_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_palisades_building_effect = {
@@ -4431,7 +4431,7 @@ add_palisades_building_effect = {
         add_building = palisades_02
         prev = { remove_short_term_gold = tribal_building_tier_2_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_market_villages_building_effect = {
@@ -4461,7 +4461,7 @@ add_market_villages_building_effect = {
         add_building = market_villages_02
         prev = { remove_short_term_gold = tribal_building_tier_2_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 add_breweries_building_effect = {
@@ -4576,7 +4576,7 @@ add_breweries_building_effect = {
         add_building = breweries_08
         prev = { remove_short_term_gold = normal_building_tier_8_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
 
 # scriptorium
@@ -4689,5 +4689,5 @@ add_scriptorium_building_effect = {
         add_building = scriptorium_08
         prev = { remove_short_term_gold = normal_building_tier_8_cost }
     }
-    aba_building_upgrade_effect_agot = yes
+    cmagic_building_upgrade_effect_agot = yes
 }
