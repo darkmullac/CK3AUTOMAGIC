@@ -1,8 +1,0 @@
-﻿building_scriptorium_requirement_terrain = {
-    OR = {
-        province_has_terrain = plains
-        province_has_terrain = farmlands
-        province_has_terrain = oasis
-        province_has_terrain = floodplains
-    }
-}

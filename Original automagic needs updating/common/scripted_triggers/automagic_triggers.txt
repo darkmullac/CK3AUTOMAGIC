@@ -1,3 +1,0 @@
-mod_is_active = {
-    is_subscribed_mod_enabled = parameter:MOD
-}
