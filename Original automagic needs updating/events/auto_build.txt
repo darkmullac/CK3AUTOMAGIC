@@ -11159,7 +11159,9 @@ auto_build.0091 = {
 				}
 				province_owner = root
 			}
-			add_wind_furnace_building_effect = yes
+			holder = {
+                                add_wind_furnace_building_effect = yes
+                        }
 		}
 	}
 }
@@ -23472,7 +23474,9 @@ auto_build.0191 = {
 					is_vassal_or_below_of = root
 				}
 			}
-			add_wind_furnace_building_effect = yes
+			holder = {
+                                add_wind_furnace_building_effect = yes
+                        }
 		}
 	}
 }
