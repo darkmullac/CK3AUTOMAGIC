@@ -1,0 +1,19 @@
+# Custom building terrain requirement triggers
+
+building_scriptorium_requirement_terrain = {
+    OR = {
+        terrain = plains
+        terrain = farmland
+        terrain = hills
+        terrain = forest
+    }
+}
+
+building_wind_furnace_requirement_terrain = {
+    OR = {
+        terrain = desert
+        terrain = drylands
+        terrain = steppe
+        terrain = desert_mountains
+    }
+}
