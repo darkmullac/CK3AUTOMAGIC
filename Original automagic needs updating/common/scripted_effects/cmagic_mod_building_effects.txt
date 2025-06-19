@@ -4707,7 +4707,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_generic_dragon_pit = yes
     }
-    add_agot_agot_vineyard_building_effect = {
+    add_agot_vineyard_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4746,7 +4746,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_vineyard = yes
     }
-    add_agot_agot_lighthouse_building_effect = {
+    add_agot_lighthouse_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4785,7 +4785,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_lighthouse = yes
     }
-    add_agot_agot_glass_gardens_building_effect = {
+    add_agot_glass_gardens_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4824,7 +4824,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_glass_gardens = yes
     }
-    add_agot_agot_scholastic_guilds_building_effect = {
+    add_agot_scholastic_guilds_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4863,7 +4863,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_scholastic_guilds = yes
     }
-    add_agot_agot_slave_diplomacy_building_effect = {
+    add_agot_slave_diplomacy_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4893,7 +4893,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_slave_diplomacy = yes
     }
-    add_agot_agot_slave_stewardship_building_effect = {
+    add_agot_slave_stewardship_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4923,7 +4923,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_slave_stewardship = yes
     }
-    add_agot_agot_slave_martial_building_effect = {
+    add_agot_slave_martial_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4953,7 +4953,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_slave_martial = yes
     }
-    add_agot_agot_slave_learning_building_effect = {
+    add_agot_slave_learning_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -4983,7 +4983,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_slave_learning = yes
     }
-    add_agot_agot_slave_intrigue_building_effect = {
+    add_agot_slave_intrigue_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -5060,7 +5060,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_monastery = yes
     }
-    add_agot_agot_pirate_control_building_effect = {
+    add_agot_pirate_control_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -5117,7 +5117,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pirate_control = yes
     }
-    add_agot_agot_pirate_economic_building_effect = {
+    add_agot_pirate_economic_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -5174,7 +5174,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pirate_economic = yes
     }
-    add_agot_agot_pirate_supply_building_effect = {
+    add_agot_pirate_supply_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -5231,7 +5231,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pirate_supply = yes
     }
-    add_agot_agot_pirate_troop_building_effect = {
+    add_agot_pirate_troop_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -5288,7 +5288,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pirate_troop = yes
     }
-    add_agot_agot_pirate_military_building_effect = {
+    add_agot_pirate_military_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -5345,7 +5345,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pirate_military = yes
     }
-    add_agot_agot_pirate_fortification_building_effect = {
+    add_agot_pirate_fortification_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6545,7 +6545,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_hardstone_hills_mines = yes
     }
-    add_agot_agot_hardhome_building_effect = {
+    add_agot_hardhome_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6575,7 +6575,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_hardhome = yes
     }
-    add_agot_agot_ruins_fist_of_the_first_men_building_effect = {
+    add_agot_ruins_fist_of_the_first_men_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6617,7 +6617,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruins_fist_of_the_first_men = yes
     }
-    add_agot_agot_btw_frostfang_crypts_building_effect = {
+    add_agot_btw_frostfang_crypts_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6629,7 +6629,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_btw_frostfang_crypts = yes
     }
-    add_agot_agot_haggons_tower_building_effect = {
+    add_agot_haggons_tower_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6641,7 +6641,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_haggons_tower = yes
     }
-    add_agot_agot_ruddy_hall_building_effect = {
+    add_agot_ruddy_hall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6653,7 +6653,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruddy_hall = yes
     }
-    add_agot_agot_the_heated_pools_building_effect = {
+    add_agot_the_heated_pools_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6665,7 +6665,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_the_heated_pools = yes
     }
-    add_agot_agot_cold_cradle_building_effect = {
+    add_agot_cold_cradle_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6677,7 +6677,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_cold_cradle = yes
     }
-    add_agot_agot_others_arrival_building_effect = {
+    add_agot_others_arrival_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6689,7 +6689,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_others_arrival = yes
     }
-    add_agot_agot_thenn_great_kilns_building_effect = {
+    add_agot_thenn_great_kilns_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6701,7 +6701,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_thenn_great_kilns = yes
     }
-    add_agot_agot_thenn_valley_building_effect = {
+    add_agot_thenn_valley_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6714,7 +6714,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_thenn_valley = yes
     }
-    add_agot_agot_thenn_great_circle_building_effect = {
+    add_agot_thenn_great_circle_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6726,7 +6726,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_thenn_great_circle = yes
     }
-    add_agot_agot_thenn_small_circle_building_effect = {
+    add_agot_thenn_small_circle_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6738,7 +6738,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_thenn_small_circle = yes
     }
-    add_agot_agot_srunmued_copper_mines_building_effect = {
+    add_agot_srunmued_copper_mines_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6779,7 +6779,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_srunmued_copper_mines = yes
     }
-    add_agot_agot_krih_tin_mines_building_effect = {
+    add_agot_krih_tin_mines_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6820,7 +6820,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_krih_tin_mines = yes
     }
-    add_agot_agot_tree_of_crowns_building_effect = {
+    add_agot_tree_of_crowns_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6833,7 +6833,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_tree_of_crowns = yes
     }
-    add_agot_agot_triarchy_council_building_effect = {
+    add_agot_triarchy_council_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6846,7 +6846,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_triarchy_council = yes
     }
-    add_agot_agot_ruins_triarchy_council_building_effect = {
+    add_agot_ruins_triarchy_council_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6869,7 +6869,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruins_triarchy_council = yes
     }
-    add_agot_agot_monument_of_borderland_building_effect = {
+    add_agot_monument_of_borderland_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6882,7 +6882,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_monument_of_borderland = yes
     }
-    add_agot_agot_racallios_fort_building_effect = {
+    add_agot_racallios_fort_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6895,7 +6895,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_racallios_fort = yes
     }
-    add_agot_agot_crab_fields_building_effect = {
+    add_agot_crab_fields_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6908,7 +6908,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_crab_fields = yes
     }
-    add_agot_agot_temple_of_trade_building_effect = {
+    add_agot_temple_of_trade_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6921,7 +6921,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_temple_of_trade = yes
     }
-    add_agot_agot_lys_walls_building_effect = {
+    add_agot_lys_walls_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6934,7 +6934,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_lys_walls = yes
     }
-    add_agot_agot_temple_of_yndros_building_effect = {
+    add_agot_temple_of_yndros_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6947,7 +6947,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_temple_of_yndros = yes
     }
-    add_agot_agot_red_temple_lys_building_effect = {
+    add_agot_red_temple_lys_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6960,7 +6960,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_red_temple_lys = yes
     }
-    add_agot_agot_port_of_lys_building_effect = {
+    add_agot_port_of_lys_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6973,7 +6973,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_port_of_lys = yes
     }
-    add_agot_agot_prison_of_lys_building_effect = {
+    add_agot_prison_of_lys_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6986,7 +6986,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_prison_of_lys = yes
     }
-    add_agot_agot_perfumed_garden_building_effect = {
+    add_agot_perfumed_garden_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -6999,7 +6999,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_perfumed_garden = yes
     }
-    add_agot_agot_bleeding_tower_building_effect = {
+    add_agot_bleeding_tower_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7011,7 +7011,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_bleeding_tower = yes
     }
-    add_agot_agot_tyrosh_building_effect = {
+    add_agot_tyrosh_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7023,7 +7023,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_tyrosh = yes
     }
-    add_agot_agot_grand_temple_of_trios_building_effect = {
+    add_agot_grand_temple_of_trios_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7036,7 +7036,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_grand_temple_of_trios = yes
     }
-    add_agot_agot_tyrosh_walls_building_effect = {
+    add_agot_tyrosh_walls_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7049,7 +7049,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_tyrosh_walls = yes
     }
-    add_agot_agot_red_temple_tyrosh_building_effect = {
+    add_agot_red_temple_tyrosh_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7062,7 +7062,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_red_temple_tyrosh = yes
     }
-    add_agot_agot_great_wheel_building_effect = {
+    add_agot_great_wheel_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7075,7 +7075,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_great_wheel = yes
     }
-    add_agot_agot_grand_temple_of_gelenei_building_effect = {
+    add_agot_grand_temple_of_gelenei_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7088,7 +7088,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_grand_temple_of_gelenei = yes
     }
-    add_agot_agot_red_temple_myr_building_effect = {
+    add_agot_red_temple_myr_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7101,7 +7101,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_red_temple_myr = yes
     }
-    add_agot_agot_myr_building_effect = {
+    add_agot_myr_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7114,7 +7114,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_myr = yes
     }
-    add_agot_agot_statue_of_trios_building_effect = {
+    add_agot_statue_of_trios_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7127,7 +7127,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_statue_of_trios = yes
     }
-    add_agot_agot_myr_cliffs_building_effect = {
+    add_agot_myr_cliffs_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7140,7 +7140,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_myr_cliffs = yes
     }
-    add_agot_agot_myr_walls_building_effect = {
+    add_agot_myr_walls_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7153,7 +7153,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_myr_walls = yes
     }
-    add_agot_agot_pentos_building_effect = {
+    add_agot_pentos_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7166,7 +7166,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pentos = yes
     }
-    add_agot_agot_pentos_walls_building_effect = {
+    add_agot_pentos_walls_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7179,7 +7179,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pentos_walls = yes
     }
-    add_agot_agot_red_temple_pentos_building_effect = {
+    add_agot_red_temple_pentos_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7192,7 +7192,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_red_temple_pentos = yes
     }
-    add_agot_agot_magister_harbor_building_effect = {
+    add_agot_magister_harbor_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7205,7 +7205,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_magister_harbor = yes
     }
-    add_agot_agot_pentos_harbor_building_effect = {
+    add_agot_pentos_harbor_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7218,7 +7218,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pentos_harbor = yes
     }
-    add_agot_agot_valdrizes_building_effect = {
+    add_agot_valdrizes_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7231,7 +7231,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_valdrizes = yes
     }
-    add_agot_agot_hugor_hill_building_effect = {
+    add_agot_hugor_hill_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7244,7 +7244,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_hugor_hill = yes
     }
-    add_agot_agot_sealords_palace_building_effect = {
+    add_agot_sealords_palace_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7257,7 +7257,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_sealords_palace = yes
     }
-    add_agot_agot_iron_bank_building_effect = {
+    add_agot_iron_bank_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7270,7 +7270,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_iron_bank = yes
     }
-    add_agot_agot_isle_of_the_gods_building_effect = {
+    add_agot_isle_of_the_gods_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7283,7 +7283,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_isle_of_the_gods = yes
     }
-    add_agot_agot_arsenal_building_effect = {
+    add_agot_arsenal_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7296,7 +7296,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_arsenal = yes
     }
-    add_agot_agot_titan_building_effect = {
+    add_agot_titan_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7309,7 +7309,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_titan = yes
     }
-    add_agot_agot_palace_of_truth_building_effect = {
+    add_agot_palace_of_truth_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7322,7 +7322,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_palace_of_truth = yes
     }
-    add_agot_agot_drowned_town_building_effect = {
+    add_agot_drowned_town_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7335,7 +7335,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_drowned_town = yes
     }
-    add_agot_agot_sweetwater_font_building_effect = {
+    add_agot_sweetwater_font_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7348,7 +7348,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_sweetwater_font = yes
     }
-    add_agot_agot_the_wall_building_effect = {
+    add_agot_the_wall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7361,7 +7361,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_the_wall = yes
     }
-    add_agot_agot_castle_black_building_effect = {
+    add_agot_castle_black_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7374,7 +7374,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_castle_black = yes
     }
-    add_agot_agot_eastwatch_building_effect = {
+    add_agot_eastwatch_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7387,7 +7387,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_eastwatch = yes
     }
-    add_agot_agot_shadow_tower_building_effect = {
+    add_agot_shadow_tower_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7400,7 +7400,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_shadow_tower = yes
     }
-    add_agot_agot_bridge_of_skulls_building_effect = {
+    add_agot_bridge_of_skulls_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7413,7 +7413,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_bridge_of_skulls = yes
     }
-    add_agot_agot_tower_of_joy_building_effect = {
+    add_agot_tower_of_joy_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7426,7 +7426,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_tower_of_joy = yes
     }
-    add_agot_agot_the_water_gardens_building_effect = {
+    add_agot_the_water_gardens_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7439,7 +7439,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_the_water_gardens = yes
     }
-    add_agot_agot_ghaston_grey_building_effect = {
+    add_agot_ghaston_grey_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7452,7 +7452,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ghaston_grey = yes
     }
-    add_agot_agot_the_shadow_city_building_effect = {
+    add_agot_the_shadow_city_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7465,7 +7465,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_the_shadow_city = yes
     }
-    add_agot_agot_starfall_building_effect = {
+    add_agot_starfall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7477,7 +7477,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_starfall = yes
     }
-    add_agot_agot_vultures_roost_building_effect = {
+    add_agot_vultures_roost_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7489,7 +7489,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_vultures_roost = yes
     }
-    add_agot_agot_skyreach_building_effect = {
+    add_agot_skyreach_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7501,7 +7501,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_skyreach = yes
     }
-    add_agot_agot_hellgate_hall_building_effect = {
+    add_agot_hellgate_hall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7514,7 +7514,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_hellgate_hall = yes
     }
-    add_agot_agot_ruins_hellgate_hall_building_effect = {
+    add_agot_ruins_hellgate_hall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7537,7 +7537,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruins_hellgate_hall = yes
     }
-    add_agot_agot_godsgrace_building_effect = {
+    add_agot_godsgrace_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7550,7 +7550,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_godsgrace = yes
     }
-    add_agot_agot_nymeros_tower_building_effect = {
+    add_agot_nymeros_tower_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7563,7 +7563,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_nymeros_tower = yes
     }
-    add_agot_agot_plankytown_building_effect = {
+    add_agot_plankytown_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7576,7 +7576,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_plankytown = yes
     }
-    add_agot_agot_sandstone_building_effect = {
+    add_agot_sandstone_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7588,7 +7588,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_sandstone = yes
     }
-    add_agot_agot_broken_tower_building_effect = {
+    add_agot_broken_tower_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7601,7 +7601,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_broken_tower = yes
     }
-    add_agot_agot_merling_port_building_effect = {
+    add_agot_merling_port_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7614,7 +7614,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_merling_port = yes
     }
-    add_agot_agot_pit_of_snakes_building_effect = {
+    add_agot_pit_of_snakes_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7637,7 +7637,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_pit_of_snakes = yes
     }
-    add_agot_agot_raventree_hall_building_effect = {
+    add_agot_raventree_hall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7650,7 +7650,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_raventree_hall = yes
     }
-    add_agot_agot_inn_at_the_crossroads_building_effect = {
+    add_agot_inn_at_the_crossroads_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7663,7 +7663,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_inn_at_the_crossroads = yes
     }
-    add_agot_agot_high_heart_building_effect = {
+    add_agot_high_heart_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7676,7 +7676,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_high_heart = yes
     }
-    add_agot_agot_ruin_high_heart_building_effect = {
+    add_agot_ruin_high_heart_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7699,7 +7699,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruin_high_heart = yes
     }
-    add_agot_agot_seagard_building_effect = {
+    add_agot_seagard_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7712,7 +7712,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_seagard = yes
     }
-    add_agot_agot_oldstones_building_effect = {
+    add_agot_oldstones_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7735,7 +7735,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_oldstones = yes
     }
-    add_agot_agot_inn_of_the_kneeling_man_building_effect = {
+    add_agot_inn_of_the_kneeling_man_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7748,7 +7748,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_inn_of_the_kneeling_man = yes
     }
-    add_agot_agot_stoney_sept_building_effect = {
+    add_agot_stoney_sept_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7761,7 +7761,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_stoney_sept = yes
     }
-    add_agot_agot_wayfarers_rest_building_effect = {
+    add_agot_wayfarers_rest_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7774,7 +7774,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_wayfarers_rest = yes
     }
-    add_agot_agot_mudgrave_building_effect = {
+    add_agot_mudgrave_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7787,7 +7787,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_mudgrave = yes
     }
-    add_agot_agot_banefort_building_effect = {
+    add_agot_banefort_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7800,7 +7800,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_banefort = yes
     }
-    add_agot_agot_castamere_building_effect = {
+    add_agot_castamere_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7813,7 +7813,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_castamere = yes
     }
-    add_agot_agot_castamere_ruins_building_effect = {
+    add_agot_castamere_ruins_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7836,7 +7836,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_castamere_ruins = yes
     }
-    add_agot_agot_lann_sept_building_effect = {
+    add_agot_lann_sept_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7849,7 +7849,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_lann_sept = yes
     }
-    add_agot_agot_lions_dock_building_effect = {
+    add_agot_lions_dock_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7862,7 +7862,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_lions_dock = yes
     }
-    add_agot_agot_crakehall_building_effect = {
+    add_agot_crakehall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7875,7 +7875,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_crakehall = yes
     }
-    add_agot_agot_griffins_roost_building_effect = {
+    add_agot_griffins_roost_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7888,7 +7888,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_griffins_roost = yes
     }
-    add_agot_agot_blackhaven_building_effect = {
+    add_agot_blackhaven_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7901,7 +7901,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_blackhaven = yes
     }
-    add_agot_agot_stonehelm_building_effect = {
+    add_agot_stonehelm_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7914,7 +7914,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_stonehelm = yes
     }
-    add_agot_agot_nightsong_building_effect = {
+    add_agot_nightsong_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7927,7 +7927,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_nightsong = yes
     }
-    add_agot_agot_morne_building_effect = {
+    add_agot_morne_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7960,7 +7960,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_morne = yes
     }
-    add_agot_agot_evenfall_hall_building_effect = {
+    add_agot_evenfall_hall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7973,7 +7973,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_evenfall_hall = yes
     }
-    add_agot_agot_summerhall_building_effect = {
+    add_agot_summerhall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -7986,7 +7986,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_summerhall = yes
     }
-    add_agot_agot_summerhall_ruins_building_effect = {
+    add_agot_summerhall_ruins_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8009,7 +8009,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_summerhall_ruins = yes
     }
-    add_agot_agot_bronzegate_building_effect = {
+    add_agot_bronzegate_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8022,7 +8022,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_bronzegate = yes
     }
-    add_agot_agot_weeping_tower_building_effect = {
+    add_agot_weeping_tower_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8045,7 +8045,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_weeping_tower = yes
     }
-    add_agot_agot_kingswood_brotherhood_building_effect = {
+    add_agot_kingswood_brotherhood_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8058,7 +8058,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_kingswood_brotherhood = yes
     }
-    add_agot_agot_ruins_kingswood_brotherhood_building_effect = {
+    add_agot_ruins_kingswood_brotherhood_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8081,7 +8081,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruins_kingswood_brotherhood = yes
     }
-    add_agot_agot_barrow_keep_building_effect = {
+    add_agot_barrow_keep_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8094,7 +8094,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_barrow_keep = yes
     }
-    add_agot_agot_white_harbor_building_effect = {
+    add_agot_white_harbor_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8107,7 +8107,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_white_harbor = yes
     }
-    add_agot_agot_sept_of_the_snows_building_effect = {
+    add_agot_sept_of_the_snows_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8120,7 +8120,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_sept_of_the_snows = yes
     }
-    add_agot_agot_wolfs_den_building_effect = {
+    add_agot_wolfs_den_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8153,7 +8153,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_wolfs_den = yes
     }
-    add_agot_agot_new_castle_building_effect = {
+    add_agot_new_castle_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8166,7 +8166,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_new_castle = yes
     }
-    add_agot_agot_dreadfort_building_effect = {
+    add_agot_dreadfort_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8179,7 +8179,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_dreadfort = yes
     }
-    add_agot_agot_karhold_building_effect = {
+    add_agot_karhold_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8192,7 +8192,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_karhold = yes
     }
-    add_agot_agot_warg_king_building_effect = {
+    add_agot_warg_king_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8215,7 +8215,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_warg_king = yes
     }
-    add_agot_agot_greywater_watch_building_effect = {
+    add_agot_greywater_watch_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8228,7 +8228,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_greywater_watch = yes
     }
-    add_agot_agot_rills_stables_building_effect = {
+    add_agot_rills_stables_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8241,7 +8241,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_rills_stables = yes
     }
-    add_agot_agot_oldtown_walls_building_effect = {
+    add_agot_oldtown_walls_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8254,7 +8254,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_oldtown_walls = yes
     }
-    add_agot_agot_seven_shrines_building_effect = {
+    add_agot_seven_shrines_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8267,7 +8267,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_seven_shrines = yes
     }
-    add_agot_agot_goldengrove_building_effect = {
+    add_agot_goldengrove_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8280,7 +8280,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_goldengrove = yes
     }
-    add_agot_agot_bitterbridge_building_effect = {
+    add_agot_bitterbridge_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8303,7 +8303,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_bitterbridge = yes
     }
-    add_agot_agot_red_lake_building_effect = {
+    add_agot_red_lake_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8316,7 +8316,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_red_lake = yes
     }
-    add_agot_agot_tumbleton_building_effect = {
+    add_agot_tumbleton_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8328,7 +8328,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_tumbleton = yes
     }
-    add_agot_agot_cider_hall_building_effect = {
+    add_agot_cider_hall_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8341,7 +8341,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_cider_hall = yes
     }
-    add_agot_agot_starpike_building_effect = {
+    add_agot_starpike_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8354,7 +8354,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_starpike = yes
     }
-    add_agot_agot_redwyne_port_building_effect = {
+    add_agot_redwyne_port_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8367,7 +8367,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_redwyne_port = yes
     }
-    add_agot_agot_witchs_wood_building_effect = {
+    add_agot_witchs_wood_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8380,7 +8380,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_witchs_wood = yes
     }
-    add_agot_agot_ashford_tourney_grounds_building_effect = {
+    add_agot_ashford_tourney_grounds_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8393,7 +8393,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ashford_tourney_grounds = yes
     }
-    add_agot_agot_brightwater_moat_building_effect = {
+    add_agot_brightwater_moat_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8406,7 +8406,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_brightwater_moat = yes
     }
-    add_agot_agot_grafton_keep_building_effect = {
+    add_agot_grafton_keep_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8419,7 +8419,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_grafton_keep = yes
     }
-    add_agot_agot_maris_motherhouse_building_effect = {
+    add_agot_maris_motherhouse_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8432,7 +8432,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_maris_motherhouse = yes
     }
-    add_agot_agot_runestone_building_effect = {
+    add_agot_runestone_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8445,7 +8445,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_runestone = yes
     }
-    add_agot_agot_gates_of_the_moon_building_effect = {
+    add_agot_gates_of_the_moon_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8468,7 +8468,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_gates_of_the_moon = yes
     }
-    add_agot_agot_sisterton_building_effect = {
+    add_agot_sisterton_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8481,7 +8481,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_sisterton = yes
     }
-    add_agot_agot_redfort_building_effect = {
+    add_agot_redfort_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8494,7 +8494,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_redfort = yes
     }
-    add_agot_agot_ironoaks_building_effect = {
+    add_agot_ironoaks_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8507,7 +8507,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ironoaks = yes
     }
-    add_agot_agot_strongsong_building_effect = {
+    add_agot_strongsong_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8520,7 +8520,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_strongsong = yes
     }
-    add_agot_agot_ruthermont_building_effect = {
+    add_agot_ruthermont_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8533,7 +8533,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruthermont = yes
     }
-    add_agot_agot_upcliffs_haven_building_effect = {
+    add_agot_upcliffs_haven_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8546,7 +8546,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_upcliffs_haven = yes
     }
-    add_agot_agot_hoare_castle_building_effect = {
+    add_agot_hoare_castle_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8559,7 +8559,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_hoare_castle = yes
     }
-    add_agot_agot_lonely_light_building_effect = {
+    add_agot_lonely_light_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8572,7 +8572,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_lonely_light = yes
     }
-    add_agot_agot_dragonmont_building_effect = {
+    add_agot_dragonmont_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8585,7 +8585,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_dragonmont = yes
     }
-    add_agot_agot_spicetown_building_effect = {
+    add_agot_spicetown_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8598,7 +8598,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_spicetown = yes
     }
-    add_agot_agot_ruins_spicetown_building_effect = {
+    add_agot_ruins_spicetown_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8621,7 +8621,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruins_spicetown = yes
     }
-    add_agot_agot_claw_isle_building_effect = {
+    add_agot_claw_isle_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8634,7 +8634,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_claw_isle = yes
     }
-    add_agot_agot_whispers_building_effect = {
+    add_agot_whispers_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8647,7 +8647,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_whispers = yes
     }
-    add_agot_agot_stonedance_building_effect = {
+    add_agot_stonedance_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8660,7 +8660,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_stonedance = yes
     }
-    add_agot_agot_duskendale_building_effect = {
+    add_agot_duskendale_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8673,7 +8673,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_duskendale = yes
     }
-    add_agot_agot_hightide_building_effect = {
+    add_agot_hightide_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8686,7 +8686,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_hightide = yes
     }
-    add_agot_agot_ruins_hightide_building_effect = {
+    add_agot_ruins_hightide_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8709,7 +8709,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_ruins_hightide = yes
     }
-    add_agot_agot_driftmark_building_effect = {
+    add_agot_driftmark_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8722,7 +8722,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_driftmark = yes
     }
-    add_agot_agot_urban_farms_building_effect = {
+    add_agot_urban_farms_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8832,7 +8832,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_urban_farms = yes
     }
-    add_agot_agot_steppe_farms_building_effect = {
+    add_agot_steppe_farms_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
@@ -8942,7 +8942,7 @@ if = {
         }
         Cmagic_building_upgrade_effect_agot_steppe_farms = yes
     }
-    add_agot_agot_slave_camps_building_effect = {
+    add_agot_slave_camps_building_effect = {
         if = {
             limit = {
                 prev = { gold > cheap_building_tier_1_cost }
