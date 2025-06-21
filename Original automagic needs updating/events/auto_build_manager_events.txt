@@ -1,0 +1,38 @@
+﻿namespace = auto_build_manager
+
+auto_build_manager.0001 = {
+    type = character_event
+    title = auto_build_manager.0001.t
+    desc = auto_build_manager.0001.desc
+    theme = stewardship_domain_focus
+    left_portrait = root
+
+    option = {
+        name = auto_build_manager.0001.enable
+        trigger = { NOT = { has_character_flag = enable_auto_build } }
+        add_character_flag = enable_auto_build
+        trigger_event = auto_build.0003
+    }
+    option = {
+        name = auto_build_manager.0001.enable_vassal
+        trigger = { NOT = { has_character_flag = enable_vassal_auto_build } }
+        add_character_flag = enable_vassal_auto_build
+        trigger_event = auto_build.0003
+    }
+    option = {
+        name = auto_build_manager.0001.disable
+        trigger = {
+            OR = {
+                has_character_flag = enable_auto_build
+                has_character_flag = enable_vassal_auto_build
+            }
+        }
+        remove_character_flag = enable_auto_build
+        remove_character_flag = enable_vassal_auto_build
+        trigger_event = auto_build.0003    # Trigger build event after disabling too
+    }
+    option = {
+        name = auto_build_manager.0001.exit
+        custom_tooltip = auto_build_manager.0001.tip_exit
+    }
+}

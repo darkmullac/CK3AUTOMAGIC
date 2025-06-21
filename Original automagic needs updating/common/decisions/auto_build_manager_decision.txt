@@ -1,0 +1,12 @@
+﻿auto_build_manager_decision = {
+    picture = { reference = "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds" }
+    desc = auto_build_manager_decision_desc
+    is_shown = { is_ai = no }
+    effect = {
+        trigger_event = auto_build_manager.0001   # This opens your popup GUI!
+    }
+    decision_group_type = admin
+    ai_check_interval = 0
+    ai_potential = { always = no }
+    ai_will_do = { base = 0 }
+}
