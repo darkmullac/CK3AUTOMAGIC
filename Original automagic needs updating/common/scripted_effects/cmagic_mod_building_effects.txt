@@ -465,8 +465,8 @@ add_zhanshi_building_effect = { }
 
 # ---- ORIGINAL FILE BELOW ----
 ########## More Buildings Reboot (and More building++) SUPPORT ##########
-if = {
-    limit = { mod_is_active = "2943715129" }
+# if = {
+#     limit = { mod_is_active = "2943715129" }
     add_mbrxxx_improvement_building_effect = {
         if = {
             limit = {
@@ -3595,11 +3595,11 @@ if = {
         }
         Cmagic_building_upgrade_effect_zhanshi = yes
     }
-}
+# }
 
 ########## Oriental Empires SUPPORT ##########
-if = {
-    limit = { mod_is_active = "2506311074" }
+# if = {
+#     limit = { mod_is_active = "2506311074" }
     add_oe_shoushan_mines_building_effect = {
         if = {
             limit = {
@@ -4408,11 +4408,11 @@ if = {
         }
         Cmagic_building_upgrade_effect_Angkor = yes
     }
-}
+# }
 
 ########## 东方王朝文化兵种扩展 Orient Empires Expansion of cultural customs SUPPORT ##########
-if = {
-    limit = { mod_is_active = "2846371321" }
+# if = {
+#     limit = { mod_is_active = "2846371321" }
     add_dfwckuozhan_qianmutian_building_effect = {
         if = {
             limit = {
@@ -5127,11 +5127,11 @@ if = {
         }
         Cmagic_building_upgrade_effect_conglinliechang = yes
     }
-}
+# }
 
 ########## A Game of Thrones SUPPORT ##########
-if = {
-    limit = { mod_is_active = "2962333032" }
+# if = {
+#     limit = { mod_is_active = "2962333032" }
     add_agot_castle_building_effect = {
         if = {
             limit = {
@@ -9845,4 +9845,4 @@ add_agot_building_moat_building_effect = {
         }
         Cmagic_building_upgrade_effect_apiaries = yes
     }
-}
+# }
