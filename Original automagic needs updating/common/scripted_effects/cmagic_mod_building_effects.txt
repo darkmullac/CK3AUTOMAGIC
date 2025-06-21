@@ -280,17 +280,17 @@ add_hbm_building_effect = { }
 add_heishi_building_effect = { }
 add_heitudi_building_effect = { }
 add_highgarden_building_effect = { }
-add_hill_farms_building_effect = { }
-add_hill_forts_building_effect = { }
+
+
 add_holy_site_dashuyuan_building_effect = { }
 add_holy_site_great_sept_building_effect = { }
 add_holy_site_naggas_hill_building_effect = { }
 add_holy_site_starry_sept_building_effect = { }
 add_holy_site_wenmiao_building_effect = { }
-add_horse_pastures_building_effect = { }
-add_hospices_building_effect = { }
+
+
 add_hospital_building_effect = { }
-add_hunting_building_effect = { }
+
 add_improvement_building_effect = { }
 add_interior_building_effect = { }
 add_ironwood_building_effect = { }
@@ -301,10 +301,10 @@ add_large_ruin_building_effect = { }
 add_lcamp_building_effect = { }
 add_liaodong_mines_building_effect = { }
 add_liehu_building_effect = { }
-add_logging_camps_building_effect = { }
-add_longhouses_building_effect = { }
+
+
 add_longmenshiku_building_effect = { }
-add_market_villages_building_effect = { }
+
 add_mbrxxx_Townsquare_building_effect = { }
 add_mbrxxx_car_building_effect = { }
 add_mbrxxx_civil_engineering_building_effect = { }
@@ -321,7 +321,6 @@ add_mbrxxx_fayuan_building_effect = { }
 add_mbrxxx_hbm_building_effect = { }
 add_mbrxxx_heishi_building_effect = { }
 add_mbrxxx_hospital_building_effect = { }
-add_mbrxxx_improvement_building_effect = { }
 add_mbrxxx_interior_building_effect = { }
 add_mbrxxx_lcamp_building_effect = { }
 add_mbrxxx_liehu_building_effect = { }
@@ -349,10 +348,10 @@ add_mbrxxx_zhanshi_building_effect = { }
 add_medicine_lodge_building_effect = { }
 add_medium_ruin_building_effect = { }
 add_mif_building_effect = { }
-add_military_camps_building_effect = { }
+
 add_mines_of_the_tooth_building_effect = { }
 add_monastery_building_effect = { }
-add_monastic_schools_building_effect = { }
+
 add_muchang_building_effect = { }
 add_muhou_building_effect = { }
 add_nulishichang_building_effect = { }
@@ -380,22 +379,22 @@ add_oe_silver_mines_building_effect = { }
 add_oe_tea_plantation_building_effect = { }
 add_oe_tiance_building_effect = { }
 add_oe_weicheng_mines_building_effect = { }
-add_orchards_building_effect = { }
+
 add_orkmont_mines_building_effect = { }
-add_outposts_building_effect = { }
-add_palisades_building_effect = { }
-add_pastures_building_effect = { }
-add_peat_quarries_building_effect = { }
+
+
+
+
 add_pendric_hills_mines_building_effect = { }
 add_pimao_building_effect = { }
 add_pirate_den_building_effect = { }
-add_plantations_building_effect = { }
+
 add_pyke_building_effect = { }
-add_qanats_building_effect = { }
+
 add_qianmutian_building_effect = { }
-add_quarries_building_effect = { }
-add_ramparts_building_effect = { }
-add_regimental_grounds_building_effect = { }
+
+
+
 add_restau_building_effect = { }
 add_riverrun_building_effect = { }
 add_ruin_building_effect = { }
@@ -406,7 +405,7 @@ add_ruin_renowned_building_effect = { }
 add_ruin_salted_earth_building_effect = { }
 add_ruin_wildfire_building_effect = { }
 add_ruins_harrenhal_building_effect = { }
-add_scriptorium_building_effect = { }
+
 add_sea_salt_mines_building_effect = { }
 add_sea_spice_plantation_building_effect = { }
 add_seven_gates_building_effect = { }
@@ -421,9 +420,9 @@ add_silver_mines_building_effect = { }
 add_silverhill_mines_building_effect = { }
 add_slaughterhouse_building_effect = { }
 add_small_ruin_building_effect = { }
-add_smiths_building_effect = { }
+
 add_spice_building_effect = { }
-add_stables_building_effect = { }
+
 add_stash_building_effect = { }
 add_storms_end_building_effect = { }
 add_sunspear_building_effect = { }
@@ -431,7 +430,7 @@ add_supm_building_effect = { }
 add_support_building_effect = { }
 add_tavern_building_effect = { }
 add_tea_plantation_building_effect = { }
-add_temple_building_effect = { }
+
 add_the_bloody_gate_building_effect = { }
 add_the_citadel_building_effect = { }
 add_the_eyrie_building_effect = { }
@@ -445,17 +444,17 @@ add_tribeport_building_effect = { }
 add_tunnel_building_effect = { }
 add_vineyard_building_effect = { }
 add_war_building_effect = { }
-add_war_camps_building_effect = { }
-add_warrior_lodges_building_effect = { }
-add_watchtowers_building_effect = { }
+
+
+
 add_waterfront_building_effect = { }
-add_watermills_building_effect = { }
+
 add_weibojun_building_effect = { }
 add_weicheng_mines_building_effect = { }
-add_wind_furnace_building_effect = { }
-add_windmills_building_effect = { }
+
+
 add_winterfell_building_effect = { }
-add_workshops_building_effect = { }
+
 add_xinzeng_01_yidao_building_effect = { }
 add_xinzeng_02_yidao_building_effect = { }
 add_xinzeng_03_yidao_building_effect = { }
@@ -9646,7 +9645,7 @@ add_agot_building_moat_building_effect = {
             NOT = { has_building = building_moat_06 }
             NOT = { has_building = building_moat_07 }
             NOT = { has_building = building_moat_08 }
-            building_moat_01 = yes
+            has_building = building_moat_01
             building_building_moat_requirement_terrain = yes
             building_requirement_tribal = no
         }
@@ -9657,7 +9656,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_2_cost }
             has_building = building_moat_01
-            building_moat_02 = yes
+            has_building = building_moat_02
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_motte
             building_requirement_tribal = no
@@ -9669,7 +9668,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_3_cost }
             has_building = building_moat_02
-            building_moat_03 = yes
+            has_building = building_moat_03
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_battlements
             building_requirement_tribal = no
@@ -9681,7 +9680,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_4_cost }
             has_building = building_moat_03
-            building_moat_04 = yes
+            has_building = building_moat_04
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_battlements
             building_requirement_tribal = no
@@ -9693,7 +9692,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_5_cost }
             has_building = building_moat_04
-            building_moat_05 = yes
+            has_building = building_moat_05
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_hoardings
             building_requirement_tribal = no
@@ -9705,7 +9704,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_6_cost }
             has_building = building_moat_05
-            building_moat_06 = yes
+            has_building = building_moat_06
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_hoardings
             building_requirement_tribal = no
@@ -9717,7 +9716,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_7_cost }
             has_building = building_moat_06
-            building_moat_07 = yes
+            has_building = building_moat_07
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_machicolations
             building_requirement_tribal = no
@@ -9729,7 +9728,7 @@ add_agot_building_moat_building_effect = {
         limit = {
             prev = { gold > cheap_building_tier_8_cost }
             has_building = building_moat_07
-            building_moat_08 = yes
+            has_building = building_moat_08
             building_building_moat_requirement_terrain = yes
             has_innovation = innovation_machicolations
             building_requirement_tribal = no
