@@ -1,5 +1,0 @@
-﻿l_english:
- enable_auto_build_confirm:0 "Enable"
- disable_auto_build_confirm:0 "Disable"
-enable_auto_build_tooltip: "This option enables automatic construction of buildings."
-disable_auto_build_tooltip: "This option disables automatic construction of buildings."
