@@ -30,39 +30,39 @@ clrbnit_magic.0004 = {
 				limit = {
 					has_character_flag = enable_magic_build
 				}
-				trigger_event = clrbnit_magic.0088 #水车/Watermills
-				trigger_event = clrbnit_magic.0089 #风车/Windmills
-				trigger_event = clrbnit_magic.0090 #商队旅馆/Caravanserai
-				trigger_event = clrbnit_magic.0018 #庄园宅邸/Farm Estates
-				trigger_event = clrbnit_magic.0024 #农田/Cereal Fields									
-				trigger_event = clrbnit_magic.0092 #铁匠铺/Smiths
-				trigger_event = clrbnit_magic.0093 #工坊/Workshops
-				trigger_event = clrbnit_magic.0017 #沙漠果园/Orchards
-				trigger_event = clrbnit_magic.0015 #牧场/Cattle Pastures
-				trigger_event = clrbnit_magic.0016 #狩猎场/Hunting Grounds
-				trigger_event = clrbnit_magic.0019 #营地，加弓箭手散兵那个营地/Militia Camps
-				trigger_event = clrbnit_magic.0020 #军团训练场/Regimental Grounds
-				trigger_event = clrbnit_magic.0021 #林中堡垒/Ramparts
-				trigger_event = clrbnit_magic.0022 #幕墙，到处都能建的那个/Curtain Walls
-				trigger_event = clrbnit_magic.0023 #瞭望塔/Watchtowers			
-				trigger_event = clrbnit_magic.0025 #哨站/Outposts
-				trigger_event = clrbnit_magic.0026 #兵营/Barracks
-				trigger_event = clrbnit_magic.0027 #骆驼养殖场/Camel Farms
-				trigger_event = clrbnit_magic.0028 #林业/Logging Camps
-				trigger_event = clrbnit_magic.0029 #湿地农场/Peat Quarries
-				trigger_event = clrbnit_magic.0030 #山丘农场/Hill Farms
-				trigger_event = clrbnit_magic.0031 #战象象栏/Elephant Pens
-				trigger_event = clrbnit_magic.0032 #沙漠农业/Plantations
-				trigger_event = clrbnit_magic.0033 #采石场/Quarries
-				trigger_event = clrbnit_magic.0034 #山堡/Hill Forts
-				trigger_event = clrbnit_magic.0035 #贸易港/Tradeports
-				trigger_event = clrbnit_magic.0036 #行会/Guild Halls
-				trigger_event = clrbnit_magic.0039 #神殿/Temples
-				trigger_event = clrbnit_magic.0040 #僧侣学校/Monastic Schools
-				trigger_event = clrbnit_magic.0094 #马厩/Stables
-				trigger_event = clrbnit_magic.0095 #牧马场/Horse Pastures
-				trigger_event = clrbnit_magic.0096 #战士营地/Warrior Lodges
-				trigger_event = clrbnit_magic.0091 #风炉/Wind Furnaces
+				trigger_event = clrbnit_magic.0088 #Watermills
+				trigger_event = clrbnit_magic.0089 #Windmills
+				trigger_event = clrbnit_magic.0090 #Caravanserai
+				trigger_event = clrbnit_magic.0018 #Farm Estates
+				trigger_event = clrbnit_magic.0024 #Cereal Fields									
+				trigger_event = clrbnit_magic.0092 #Smiths
+				trigger_event = clrbnit_magic.0093 #Workshops
+				trigger_event = clrbnit_magic.0017 #Orchards
+				trigger_event = clrbnit_magic.0015 #Cattle Pastures
+				trigger_event = clrbnit_magic.0016 #Hunting Grounds
+				trigger_event = clrbnit_magic.0019 #Militia Camps
+				trigger_event = clrbnit_magic.0020 #Regimental Grounds
+				trigger_event = clrbnit_magic.0021 #Ramparts
+				trigger_event = clrbnit_magic.0022 #Curtain Walls
+				trigger_event = clrbnit_magic.0023 #Watchtowers			
+				trigger_event = clrbnit_magic.0025 #Outposts
+				trigger_event = clrbnit_magic.0026 #Barracks
+				trigger_event = clrbnit_magic.0027 #Camel Farms
+				trigger_event = clrbnit_magic.0028 #Logging Camps
+				trigger_event = clrbnit_magic.0029 #Peat Quarries
+				trigger_event = clrbnit_magic.0030 #Hill Farms
+				trigger_event = clrbnit_magic.0031 #Elephant Pens
+				trigger_event = clrbnit_magic.0032 #Plantations
+				trigger_event = clrbnit_magic.0033 #Quarries
+				trigger_event = clrbnit_magic.0034 #Hill Forts
+				trigger_event = clrbnit_magic.0035 #Tradeports
+				trigger_event = clrbnit_magic.0036 #Guild Halls
+				trigger_event = clrbnit_magic.0039 #Temples
+				trigger_event = clrbnit_magic.0040 #Monastic Schools
+				trigger_event = clrbnit_magic.0094 #Stables
+				trigger_event = clrbnit_magic.0095 #Horse Pastures
+				trigger_event = clrbnit_magic.0096 #Warrior Lodges
+				trigger_event = clrbnit_magic.0091 #Wind Furnaces
 				trigger_event = clrbnit_magic.0014 #Qanats
 				trigger_event = clrbnit_magic.0273 #Hospices
                                 trigger_event = clrbnit_magic.0098 #Breweries
@@ -72,45 +72,45 @@ clrbnit_magic.0004 = {
 				trigger_event = clrbnit_magic.2002 #guild_halls
 				trigger_event = clrbnit_magic.2003 #capital_bureau
 			}
-			else_if = {#封臣建造顺序 +100/Plus 100
+			else_if = {#Plus 100
 				limit = {
 					has_character_flag = enable_vassal_magic_build
 				}
-				trigger_event = clrbnit_magic.0188 #水车/Watermills
-				trigger_event = clrbnit_magic.0189 #风车/Windmills
-				trigger_event = clrbnit_magic.0190 #商队旅馆/Caravanserai
-				trigger_event = clrbnit_magic.0118 #庄园宅邸/Farm Estates
-				trigger_event = clrbnit_magic.0124 #农田/Cereal Fields
-				trigger_event = clrbnit_magic.0192 #铁匠铺/Smiths
-				trigger_event = clrbnit_magic.0193 #工坊/Workshops		
-				trigger_event = clrbnit_magic.0115 #牧场/Cattle Pastures
-				trigger_event = clrbnit_magic.0116 #狩猎场/Hunting Grounds
-				trigger_event = clrbnit_magic.0117 #沙漠果园/Orchards				
-				trigger_event = clrbnit_magic.0119 #军用营地/Militia Camps
-				trigger_event = clrbnit_magic.0120 #军团训练场/Regimental Grounds
-				trigger_event = clrbnit_magic.0121 #林中堡垒/Ramparts
-				trigger_event = clrbnit_magic.0122 #幕墙，到处都能建的那个/Curtain Walls
-				trigger_event = clrbnit_magic.0123 #瞭望塔/Watchtowers				
-				trigger_event = clrbnit_magic.0125 #哨站/Outposts
-				trigger_event = clrbnit_magic.0126 #兵营/Barracks
-				trigger_event = clrbnit_magic.0127 #骆驼养殖场/Camel Farms
-				trigger_event = clrbnit_magic.0128 #林业/Logging Camps
-				trigger_event = clrbnit_magic.0129 #湿地农场/Peat Quarries
-				trigger_event = clrbnit_magic.0130 #山丘农场/Hill Farms
-				trigger_event = clrbnit_magic.0131 #战象象栏/Elephant Pens
-				trigger_event = clrbnit_magic.0132 #沙漠农业/Plantations
-				trigger_event = clrbnit_magic.0133 #采石场/Quarries
-				trigger_event = clrbnit_magic.0134 #山堡/Hill Forts
-				trigger_event = clrbnit_magic.0135 #贸易港/Tradeports
-				trigger_event = clrbnit_magic.0136 #行会/Guild Halls
+				trigger_event = clrbnit_magic.0188 #Watermills
+				trigger_event = clrbnit_magic.0189 #Windmills
+				trigger_event = clrbnit_magic.0190 #Caravanserai
+				trigger_event = clrbnit_magic.0118 #Farm Estates
+				trigger_event = clrbnit_magic.0124 #Cereal Fields
+				trigger_event = clrbnit_magic.0192 #Smiths
+				trigger_event = clrbnit_magic.0193 #Workshops		
+				trigger_event = clrbnit_magic.0115 #Cattle Pastures
+				trigger_event = clrbnit_magic.0116 #Hunting Grounds
+				trigger_event = clrbnit_magic.0117 #Orchards				
+				trigger_event = clrbnit_magic.0119 #Militia Camps
+				trigger_event = clrbnit_magic.0120 #Regimental Grounds
+				trigger_event = clrbnit_magic.0121 #Ramparts
+				trigger_event = clrbnit_magic.0122 #Curtain Walls
+				trigger_event = clrbnit_magic.0123 #Watchtowers				
+				trigger_event = clrbnit_magic.0125 #Outposts
+				trigger_event = clrbnit_magic.0126 #Barracks
+				trigger_event = clrbnit_magic.0127 #Camel Farms
+				trigger_event = clrbnit_magic.0128 #Logging Camps
+				trigger_event = clrbnit_magic.0129 #Peat Quarries
+				trigger_event = clrbnit_magic.0130 #Hill Farms
+				trigger_event = clrbnit_magic.0131 #Elephant Pens
+				trigger_event = clrbnit_magic.0132 #Plantations
+				trigger_event = clrbnit_magic.0133 #Quarries
+				trigger_event = clrbnit_magic.0134 #Hill Forts
+				trigger_event = clrbnit_magic.0135 #Tradeports
+				trigger_event = clrbnit_magic.0136 #Guild Halls
                  trigger_event = clrbnit_magic.0198 #Breweries
                  trigger_event = clrbnit_magic.0197 #Scriptoriums
-				trigger_event = clrbnit_magic.0139 #神殿/Temples
-				trigger_event = clrbnit_magic.0140 #僧侣学校/Monastic Schools
-				trigger_event = clrbnit_magic.0194 #马厩/Stables
-				trigger_event = clrbnit_magic.0195 #牧马场/Horse Pastures
-				trigger_event = clrbnit_magic.0196 #战士营地/Warrior Lodges
-				trigger_event = clrbnit_magic.0191 #风炉/Wind Furnaces
+				trigger_event = clrbnit_magic.0139 #Temples
+				trigger_event = clrbnit_magic.0140 #Monastic Schools
+				trigger_event = clrbnit_magic.0194 #Stables
+				trigger_event = clrbnit_magic.0195 #Horse Pastures
+				trigger_event = clrbnit_magic.0196 #Warrior Lodges
+				trigger_event = clrbnit_magic.0191 #Wind Furnaces
 				trigger_event = clrbnit_magic.0114 #Qanats
 				trigger_event = clrbnit_magic.0173 #Hospices
 				trigger_event = clrbnit_magic.3000 #castle
@@ -216,7 +216,7 @@ clrbnit_magic.0014 = {
 		}
 	}
 }
-#自动建筑-水车 clrbnit_magic_add_watermills_building_effect
+#Watermills
 clrbnit_magic.0088 = {
 	type = character_event
 	title = clrbnit_magic.0088.t
@@ -247,7 +247,7 @@ clrbnit_magic.0088 = {
 		}
 	}
 }
-#自动建筑-风车
+#Windmills
 clrbnit_magic.0089 = {
 	type = character_event
 	title = clrbnit_magic.0089.t
@@ -278,7 +278,7 @@ clrbnit_magic.0089 = {
 		}
 	}
 }
-#自动建筑-商队旅馆 clrbnit_magic_add_caravanserai_building_effect
+#Caravanserai
 clrbnit_magic.0090 = {
 	type = character_event
 	title = clrbnit_magic.0090.t
@@ -309,7 +309,7 @@ clrbnit_magic.0090 = {
 		}
 	}
 }
-#自动建筑-风炉 clrbnit_magic_add_wind_furnace_building_effect
+#Wind Furnace
 clrbnit_magic.0091 = {
 	type = character_event
 	title = clrbnit_magic.0091.t
@@ -340,7 +340,7 @@ clrbnit_magic.0091 = {
 		}
 	}
 }
-#自动建筑-铁匠铺 clrbnit_magic_add_smiths_building_effect
+#Smiths
 clrbnit_magic.0092 = {
 	type = character_event
 	title = clrbnit_magic.0092.t
@@ -371,7 +371,7 @@ clrbnit_magic.0092 = {
 		}
 	}
 }
-#自动建筑-工坊 clrbnit_magic_add_workshops_building_effect
+#Workshops
 clrbnit_magic.0093 = {
 	type = character_event
 	title = clrbnit_magic.0093.t
@@ -402,7 +402,7 @@ clrbnit_magic.0093 = {
 		}
 	}
 }
-#自动建筑-马厩 clrbnit_magic_add_stables_building_effect
+#Stables
 clrbnit_magic.0094 = {
 	type = character_event
 	title = clrbnit_magic.0094.t
@@ -433,7 +433,7 @@ clrbnit_magic.0094 = {
 		}
 	}
 }
-#自动建筑-牧马场 clrbnit_magic_add_horse_pastures_building_effect
+#Horse Pastures
 clrbnit_magic.0095 = {
 	type = character_event
 	title = clrbnit_magic.0095.t
@@ -464,7 +464,7 @@ clrbnit_magic.0095 = {
 		}
 	}
 }
-#自动建筑-战士营地 clrbnit_magic_add_warrior_lodges_building_effect
+#Warrior Lodges
 clrbnit_magic.0096 = {
 	type = character_event
 	title = clrbnit_magic.0096.t
@@ -495,7 +495,7 @@ clrbnit_magic.0096 = {
 		}
 	}
 }
-#自动建筑-修道院抄写室 clrbnit_magic_add_scriptorium_building_effect
+#Scriptorium
 clrbnit_magic.0097 = {
         type = character_event
         title = clrbnit_magic.0097.t
@@ -526,7 +526,7 @@ clrbnit_magic.0097 = {
                 }
         }
 }
-#自动建筑-酿酒坊 clrbnit_magic_add_breweries_building_effect
+#Breweries
 clrbnit_magic.0098 = {
         type = character_event
         title = clrbnit_magic.0098.t
@@ -557,7 +557,7 @@ clrbnit_magic.0098 = {
                 }
         }
 }
-#自动建筑-牧场
+#Pastures
 clrbnit_magic.0015 = {
 	type = character_event
 	title = clrbnit_magic.0015.t
@@ -587,7 +587,7 @@ clrbnit_magic.0015 = {
 		}
 	}
 }
-#自动建筑-狩猎场
+#Hunting
 clrbnit_magic.0016 = {
 	type = character_event
 	title = clrbnit_magic.0016.t
@@ -617,7 +617,7 @@ clrbnit_magic.0016 = {
 		}
 	}
 }
-#自动建筑-果园
+#Orchards
 clrbnit_magic.0017 = {
 	type = character_event
 	title = clrbnit_magic.0017.t
@@ -647,7 +647,7 @@ clrbnit_magic.0017 = {
 		}
 	}
 }
-#自动建筑-庄园宅第
+#Farm Estates
 clrbnit_magic.0018 = {
 	type = character_event
 	title = clrbnit_magic.0018.t
@@ -677,7 +677,7 @@ clrbnit_magic.0018 = {
 		}
 	}
 }
-#自动建筑-军用营地
+#Military Camps
 clrbnit_magic.0019 = {
 	type = character_event
 	title = clrbnit_magic.0019.t
@@ -707,7 +707,7 @@ clrbnit_magic.0019 = {
 		}
 	}
 }
-#自动建筑-军团训练场
+#Regimental Grounds
 clrbnit_magic.0020 = {
 	type = character_event
 	title = clrbnit_magic.0020.t
@@ -737,7 +737,7 @@ clrbnit_magic.0020 = {
 		}
 	}
 }
-#自动建筑-林中堡垒
+#Ramparts
 clrbnit_magic.0021 = {
 	type = character_event
 	title = clrbnit_magic.0021.t
@@ -767,7 +767,7 @@ clrbnit_magic.0021 = {
 		}
 	}
 }
-#自动建筑-城墙与塔楼
+#Curtain Walls
 clrbnit_magic.0022 = {
 	type = character_event
 	title = clrbnit_magic.0022.t
@@ -797,7 +797,7 @@ clrbnit_magic.0022 = {
 		}
 	}
 }
-#自动建筑-瞭望塔
+#Watchtowers
 clrbnit_magic.0023 = {
 	type = character_event
 	title = clrbnit_magic.0023.t
@@ -827,7 +827,7 @@ clrbnit_magic.0023 = {
 		}
 	}
 }
-#自动建筑-农场与耕地
+#Cereal Fields
 clrbnit_magic.0024 = {
 	type = character_event
 	title = clrbnit_magic.0024.t
@@ -857,7 +857,7 @@ clrbnit_magic.0024 = {
 		}
 	}
 }
-#自动建筑-哨所
+#Outposts
 clrbnit_magic.0025 = {
 	type = character_event
 	title = clrbnit_magic.0025.t
@@ -887,7 +887,7 @@ clrbnit_magic.0025 = {
 		}
 	}
 }
-#自动建筑-兵营
+#Barracks
 clrbnit_magic.0026 = {
 	type = character_event
 	title = clrbnit_magic.0026.t
@@ -1018,7 +1018,7 @@ clrbnit_magic.2003 = {
     }
 }
 
-#自动建筑-骆驼养殖场
+#Camel Farms
 clrbnit_magic.0027 = {
 	type = character_event
 	title = clrbnit_magic.0027.t
@@ -1048,7 +1048,7 @@ clrbnit_magic.0027 = {
 		}
 	}
 }
-#自动建筑-林业
+#Logging Camps
 clrbnit_magic.0028 = {
 	type = character_event
 	title = clrbnit_magic.0028.t
@@ -1078,7 +1078,7 @@ clrbnit_magic.0028 = {
 		}
 	}
 }
-#自动建筑-湿地农场
+#Peat Quarries
 clrbnit_magic.0029 = {
 	type = character_event
 	title = clrbnit_magic.0029.t
@@ -1108,7 +1108,7 @@ clrbnit_magic.0029 = {
 		}
 	}
 }
-#自动建筑-山丘农场
+#Hill Farms
 clrbnit_magic.0030 = {
 	type = character_event
 	title = clrbnit_magic.0030.t
@@ -1138,7 +1138,7 @@ clrbnit_magic.0030 = {
 		}
 	}
 }
-#自动建筑-战象
+#Elephant Pens
 clrbnit_magic.0031 = {
 	type = character_event
 	title = clrbnit_magic.0031.t
@@ -1168,7 +1168,7 @@ clrbnit_magic.0031 = {
 		}
 	}
 }
-#自动建筑-沙漠农业
+#Plantations
 clrbnit_magic.0032 = {
 	type = character_event
 	title = clrbnit_magic.0032.t
@@ -1198,7 +1198,7 @@ clrbnit_magic.0032 = {
 		}
 	}
 }
-#自动建筑-采石场
+#Quarries
 clrbnit_magic.0033 = {
 	type = character_event
 	title = clrbnit_magic.0033.t
@@ -1228,7 +1228,7 @@ clrbnit_magic.0033 = {
 		}
 	}
 }
-#自动建筑-山堡
+#Hill Forts
 clrbnit_magic.0034 = {
 	type = character_event
 	title = clrbnit_magic.0034.t
@@ -1258,7 +1258,7 @@ clrbnit_magic.0034 = {
 		}
 	}
 }
-#自动建筑-贸易港口
+#Common Tradeport
 clrbnit_magic.0035 = {
 	type = character_event
 	title = clrbnit_magic.0035.t
@@ -1288,7 +1288,7 @@ clrbnit_magic.0035 = {
 		}
 	}
 }
-#自动建筑-行会
+#Guild Halls
 clrbnit_magic.0036 = {
 	type = character_event
 	title = clrbnit_magic.0036.t
@@ -1318,9 +1318,9 @@ clrbnit_magic.0036 = {
 		}
 	}
 }
-#自动建筑-城堡
-#自动建筑-城市
-#自动建筑-神殿
+#Temple
+#Temple
+#Temple
 clrbnit_magic.0039 = {
 	type = character_event
 	title = clrbnit_magic.0039.t
@@ -1350,7 +1350,7 @@ clrbnit_magic.0039 = {
 		}
 	}
 }
-#自动建筑-僧侣学校
+#Monastic Schools
 clrbnit_magic.0040 = {
 	type = character_event
 	title = clrbnit_magic.0040.t
@@ -1389,7 +1389,7 @@ clrbnit_magic.0040 = {
 #############################################################
 #############################################################################
 #########################################################################################################封臣
-#自动建筑-牧场
+#Pastures
 clrbnit_magic.0115 = {
 	type = character_event
 	title = clrbnit_magic.0115.t
@@ -1485,7 +1485,7 @@ clrbnit_magic.00114 = {
 		    }
         }
     }
-#自动建筑-狩猎场
+#Hunting
 clrbnit_magic.0116 = {
 	type = character_event
 	title = clrbnit_magic.0116.t
@@ -1517,7 +1517,7 @@ clrbnit_magic.0116 = {
 		}
 	}
 }
-#自动建筑-果园
+#Orchards
 clrbnit_magic.0117 = {
 	type = character_event
 	title = clrbnit_magic.0117.t
@@ -1549,7 +1549,7 @@ clrbnit_magic.0117 = {
 		}
 	}
 }
-#自动建筑-庄园宅第
+#Farm Estates
 clrbnit_magic.0118 = {
 	type = character_event
 	title = clrbnit_magic.0118.t
@@ -1581,7 +1581,7 @@ clrbnit_magic.0118 = {
 		}
 	}
 }
-#自动建筑-军用营地
+#Military Camps
 clrbnit_magic.0119 = {
 	type = character_event
 	title = clrbnit_magic.0119.t
@@ -1613,7 +1613,7 @@ clrbnit_magic.0119 = {
 		}
 	}
 }
-#自动建筑-军团训练场
+#Regimental Grounds
 clrbnit_magic.0120 = {
 	type = character_event
 	title = clrbnit_magic.0120.t
@@ -1645,7 +1645,7 @@ clrbnit_magic.0120 = {
 		}
 	}
 }
-#自动建筑-林中堡垒
+#Ramparts
 clrbnit_magic.0121 = {
 	type = character_event
 	title = clrbnit_magic.0121.t
@@ -1677,7 +1677,7 @@ clrbnit_magic.0121 = {
 		}
 	}
 }
-#自动建筑-城墙与塔楼
+#Curtain Walls
 clrbnit_magic.0122 = {
 	type = character_event
 	title = clrbnit_magic.0122.t
@@ -1709,7 +1709,7 @@ clrbnit_magic.0122 = {
 		}
 	}
 }
-#自动建筑-瞭望塔
+#Watchtowers
 clrbnit_magic.0123 = {
 	type = character_event
 	title = clrbnit_magic.0123.t
@@ -1741,7 +1741,7 @@ clrbnit_magic.0123 = {
 		}
 	}
 }
-#自动建筑-农场与耕地
+#Cereal Fields
 clrbnit_magic.0124 = {
 	type = character_event
 	title = clrbnit_magic.0124.t
@@ -1773,7 +1773,7 @@ clrbnit_magic.0124 = {
 		}
 	}
 }
-#自动建筑-哨所
+#Outposts
 clrbnit_magic.0125 = {
 	type = character_event
 	title = clrbnit_magic.0125.t
@@ -1805,7 +1805,7 @@ clrbnit_magic.0125 = {
 		}
 	}
 }
-#自动建筑-兵营
+#Barracks
 clrbnit_magic.0126 = {
 	type = character_event
 	title = clrbnit_magic.0126.t
@@ -1837,7 +1837,7 @@ clrbnit_magic.0126 = {
 		}
 	}
 }
-#自动建筑-骆驼养殖场
+#Camel Farms
 clrbnit_magic.0127 = {
 	type = character_event
 	title = clrbnit_magic.0127.t
@@ -1869,7 +1869,7 @@ clrbnit_magic.0127 = {
 		}
 	}
 }
-#自动建筑-林业
+#Logging Camps
 clrbnit_magic.0128 = {
 	type = character_event
 	title = clrbnit_magic.0128.t
@@ -1901,7 +1901,7 @@ clrbnit_magic.0128 = {
 		}
 	}
 }
-#自动建筑-湿地农场
+#Peat Quarries
 clrbnit_magic.0129 = {
 	type = character_event
 	title = clrbnit_magic.0129.t
@@ -1933,7 +1933,7 @@ clrbnit_magic.0129 = {
 		}
 	}
 }
-#自动建筑-山丘农场
+#Hill Farms
 clrbnit_magic.0130 = {
 	type = character_event
 	title = clrbnit_magic.0130.t
@@ -1965,7 +1965,7 @@ clrbnit_magic.0130 = {
 		}
 	}
 }
-#自动建筑-战象
+#Elephant Pens
 clrbnit_magic.0131 = {
 	type = character_event
 	title = clrbnit_magic.0131.t
@@ -1997,7 +1997,7 @@ clrbnit_magic.0131 = {
 		}
 	}
 }
-#自动建筑-沙漠农业
+#Plantations
 clrbnit_magic.0132 = {
 	type = character_event
 	title = clrbnit_magic.0132.t
@@ -2029,7 +2029,7 @@ clrbnit_magic.0132 = {
 		}
 	}
 }
-#自动建筑-采石场
+#Quarries
 clrbnit_magic.0133 = {
 	type = character_event
 	title = clrbnit_magic.0133.t
@@ -2061,7 +2061,7 @@ clrbnit_magic.0133 = {
 		}
 	}
 }
-#自动建筑-山堡
+#Hill Forts
 clrbnit_magic.0134 = {
 	type = character_event
 	title = clrbnit_magic.0134.t
@@ -2093,7 +2093,7 @@ clrbnit_magic.0134 = {
 		}
 	}
 }
-#自动建筑-贸易港口
+#Common Tradeport
 clrbnit_magic.0135 = {
 	type = character_event
 	title = clrbnit_magic.0135.t
@@ -2125,7 +2125,7 @@ clrbnit_magic.0135 = {
 		}
 	}
 }
-#自动建筑-行会
+#Guild Halls
 clrbnit_magic.0136 = {
 	type = character_event
 	title = clrbnit_magic.0136.t
@@ -2157,9 +2157,9 @@ clrbnit_magic.0136 = {
 		}
 	}
 }
-#自动建筑-城堡
-#自动建筑-城市
-#自动建筑-神殿
+#Temple
+#Temple
+#Temple
 clrbnit_magic.0139 = {
 	type = character_event
 	title = clrbnit_magic.0139.t
@@ -2191,7 +2191,7 @@ clrbnit_magic.0139 = {
 		}
 	}
 }
-#自动建筑-僧侣学校
+#Monastic Schools
 clrbnit_magic.0140 = {
 	type = character_event
 	title = clrbnit_magic.0140.t
@@ -2223,7 +2223,7 @@ clrbnit_magic.0140 = {
 		}
 	}
 }
-#自动建筑-水车 clrbnit_magic_add_watermills_building_effect
+#Watermills
 clrbnit_magic.0188 = {
 	type = character_event
 	title = clrbnit_magic.0188.t
@@ -2256,7 +2256,7 @@ clrbnit_magic.0188 = {
 		}
 	}
 }
-#自动建筑-风车
+#Windmills
 clrbnit_magic.0189 = {
 	type = character_event
 	title = clrbnit_magic.0189.t
@@ -2289,7 +2289,7 @@ clrbnit_magic.0189 = {
 		}
 	}
 }
-#自动建筑-商队旅馆 clrbnit_magic_add_caravanserai_building_effect
+#Caravanserai
 clrbnit_magic.0190 = {
 	type = character_event
 	title = clrbnit_magic.0190.t
@@ -2322,7 +2322,7 @@ clrbnit_magic.0190 = {
 		}
 	}
 }
-#自动建筑-风炉 clrbnit_magic_add_wind_furnace_building_effect
+#Wind Furnace
 clrbnit_magic.0191 = {
 	type = character_event
 	title = clrbnit_magic.0191.t
@@ -2355,7 +2355,7 @@ clrbnit_magic.0191 = {
 		}
 	}
 }
-#自动建筑-铁匠铺 clrbnit_magic_add_smiths_building_effect
+#Smiths
 clrbnit_magic.0192 = {
 	type = character_event
 	title = clrbnit_magic.0192.t
@@ -2388,7 +2388,7 @@ clrbnit_magic.0192 = {
 		}
 	}
 }
-#自动建筑-工坊 clrbnit_magic_add_workshops_building_effect
+#Workshops
 clrbnit_magic.0193 = {
 	type = character_event
 	title = clrbnit_magic.0193.t
@@ -2524,7 +2524,7 @@ clrbnit_magic.3003 = {
     }
 }
 
-#自动建筑-马厩 clrbnit_magic_add_stables_building_effect
+#Stables
 clrbnit_magic.0194 = {
 	type = character_event
 	title = clrbnit_magic.0194.t
@@ -2558,7 +2558,7 @@ clrbnit_magic.0194 = {
 	}
 }
 
-#自动建筑-牧马场 clrbnit_magic_add_horse_pastures_building_effect
+#Horse Pastures
 clrbnit_magic.0195 = {
 	type = character_event
 	title = clrbnit_magic.0195.t
@@ -2591,7 +2591,7 @@ clrbnit_magic.0195 = {
 			}
         }
     }
-#自动建筑-战士营地 clrbnit_magic_add_warrior_lodges_building_effect
+#Warrior Lodges
 clrbnit_magic.0196 = {
 	type = character_event
 	title = clrbnit_magic.0196.t
@@ -2624,7 +2624,7 @@ clrbnit_magic.0196 = {
 		}
 	}
 }
-#自动建筑-酿酒坊 clrbnit_magic_add_breweries_building_effect
+#Breweries
 clrbnit_magic.0198 = {
         type = character_event
         title = clrbnit_magic.0198.t
@@ -2657,7 +2657,7 @@ clrbnit_magic.0198 = {
                 }
         }
 }
-#自动建筑-修道院抄写室 clrbnit_magic_add_scriptorium_building_effect
+#Scriptorium
 clrbnit_magic.0197 = {
         type = character_event
         title = clrbnit_magic.0197.t
