@@ -3237,7 +3237,7 @@ clrbnit_magic_add_monastic_schools_building_effect = {
     }
 }
 
-#风车 水车
+#Windmills
 clrbnit_magic_add_windmills_building_effect = {
     if = {
         limit = {
@@ -3466,7 +3466,7 @@ clrbnit_magic_add_watermills_building_effect = {
     }
 }
 
-#商队旅馆 caravanserai
+#Caravanserai
 clrbnit_magic_add_caravanserai_building_effect = {
     if = {
         limit = {
@@ -3581,7 +3581,7 @@ clrbnit_magic_add_caravanserai_building_effect = {
     }
 }
 
-#风炉 wind_furnace
+#Wind Furnace
 clrbnit_magic_add_wind_furnace_building_effect = {
     if = {
         limit = {
@@ -3696,7 +3696,7 @@ clrbnit_magic_add_wind_furnace_building_effect = {
     }
 }
 
-#铁匠 smiths
+#Smiths
 clrbnit_magic_add_smiths_building_effect = {
     if = {
         limit = {
@@ -3804,7 +3804,7 @@ clrbnit_magic_add_smiths_building_effect = {
     }
 }
 
-#工坊 加攻城那个 workshops
+#Workshops
 clrbnit_magic_add_workshops_building_effect = {
     if = {
         limit = {
@@ -3919,7 +3919,7 @@ clrbnit_magic_add_workshops_building_effect = {
     }
 }
 
-#马厩 加移速的 stables
+#Stables
 clrbnit_magic_add_stables_building_effect = {
     if = {
         limit = {
@@ -4034,7 +4034,7 @@ clrbnit_magic_add_stables_building_effect = {
     }
 }
 
-#马什么的 可能是游牧的建筑 horse_pastures
+#Horse Pastures
 clrbnit_magic_add_horse_pastures_building_effect = {
     if = {
         limit = {
@@ -4149,7 +4149,7 @@ clrbnit_magic_add_horse_pastures_building_effect = {
     }
 }
 
-#战士营地 加追击那个 warrior_lodges
+#Warrior Lodges
 clrbnit_magic_add_warrior_lodges_building_effect = {
     if = {
         limit = {
