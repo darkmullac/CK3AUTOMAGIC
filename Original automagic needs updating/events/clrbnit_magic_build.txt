@@ -149,11 +149,11 @@ clrbnit_magic.0001 = {
 	}
 	option = {
 		name = clrbnit_magic.0001.a
-		add_character_flag = enable_auto_build
+		add_character_flag = enable_magic_build
 	}
 	option = {
 		name = clrbnit_magic.0001.b
-		add_character_flag = enable_vassal_auto_build
+		add_character_flag = enable_vassal_magic_build
 	}
 }
 clrbnit_magic.0273 = {
