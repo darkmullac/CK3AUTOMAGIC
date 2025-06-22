@@ -1,0 +1,43 @@
+﻿l_english:
+  # Decision localization
+  clrbnit_magic_aaa_manager_decision: "Auto-Build Manager"
+  clrbnit_magic_aaa_manager_decision_desc: "Manage automatic construction settings for your realm."
+  clrbnit_magic_aaa_manager_decision_tooltip: "Open the auto-build management menu."
+  clrbnit_magic_aaa_manager_decision_confirm: "Confirm"
+
+  # Build options
+  clrbnit_magic_enable_magic_build: "Enable Auto-Build"
+  clrbnit_magic_enable_magic_build_desc: "Enable automatic building for your own holdings."
+  clrbnit_magic_enable_vassal_magic_build: "Enable Auto-Build for Vassals"
+  clrbnit_magic_enable_vassal_magic_build_desc: "Allow automatic building in vassal holdings."
+  clrbnit_magic_disable_magic_build: "Disable Auto-Build"
+  clrbnit_magic_disable_magic_build_desc: "Turn off automatic building everywhere."
+
+  # Effects and status messages
+  clrbnit_magic_build_decision_confirm: "Confirm Auto-Build Settings"
+  clrbnit_magic_enable_magic_build_effect: "Automatic construction will be activated for your holdings."
+  clrbnit_magic_enable_vassal_magic_build_effect: "Automatic construction will be activated for vassal holdings."
+  clrbnit_magic_disable_magic_build_effect: "Automatic construction will be disabled for all holdings."
+  clrbnit_magic_build_not_enabled: "Automatic construction is not enabled."
+  clrbnit_magic_build_already_enabled: "Automatic construction is already enabled."
+  clrbnit_magic_build_vassal_already_enabled: "Automatic construction for vassals is already enabled."
+
+  # Manager event localization
+  clrbnit_magic_aaa_manager.0001.t:0 "Auto-Build Manager"
+  clrbnit_magic_aaa_manager.0001.desc:0 "Manage automatic building options for your realm."
+  clrbnit_magic_aaa_manager.0001.a:0 "Configure Settings"
+  clrbnit_magic_aaa_manager.0001.enable:0 "Enable Auto-Build"
+  clrbnit_magic_aaa_manager.0001.enable_vassal:0 "Enable Auto-Build for Vassals"
+  clrbnit_magic_aaa_manager.0001.disable:0 "Disable Auto-Build"
+  clrbnit_magic_aaa_manager.0001.exit:0 "Exit"
+  clrbnit_magic_aaa_manager.0001.tip_exit:0 "Close the Auto-Build Manager."
+
+  magic_build_manager.0001.t:0 "Magic Build Manager"
+  magic_build_manager.0001.desc:0 "Choose how you want to manage automatic building construction."
+  magic_build_manager.0001.enable:0 "Enable for me only"
+  magic_build_manager.0001.enable_vassal:0 "Enable for me and vassals"
+  magic_build_manager.0001.disable:0 "Disable"
+  magic_build_manager.0001.exit:0 "Exit"
+  magic_build_manager.0001.tip_exit:0 "Close this menu"
+  clrbnit_magic_Wind_furnace_custom_tooltip:0 "Wind Furnace requirements met"
+  clrbnit_magic_Scriptorium_custom_tooltip:0 "Scriptorium requirements met"

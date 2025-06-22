@@ -1,0 +1,24 @@
+﻿# Custom building terrain requirement triggers
+clrbnit_magic_building_wind_furnace_requirement_terrain = {
+    custom_tooltip = { 
+        text = clrbnit_magic_wind_furnace_terrain_requirement_tt
+        OR = {
+            terrain = desert
+            terrain = desert_mountains
+            terrain = drylands
+            terrain = steppe
+        }
+    }
+}
+
+clrbnit_magic_building_scriptorium_requirement_terrain = {
+    custom_tooltip = { 
+        text = clrbnit_magic_custom_scriptorium_requirement_tt 
+        OR = {
+            terrain = farmlands
+            terrain = forest
+            terrain = hills
+            terrain = plains
+        }
+    }
+}
