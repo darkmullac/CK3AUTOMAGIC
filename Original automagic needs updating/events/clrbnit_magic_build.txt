@@ -26,10 +26,10 @@ clrbnit_magic.0004 = {
 	hidden = yes
 	immediate = {
 		hidden_effect = {
-			if = {
-				limit = {
-					has_character_flag = enable_magic_build
-				}
+                        if = {
+                                limit = {
+                                        has_character_flag = enable_magic_build
+                                }
 				trigger_event = clrbnit_magic.0088 #Watermills
 				trigger_event = clrbnit_magic.0089 #Windmills
 				trigger_event = clrbnit_magic.0090 #Caravanserai
@@ -71,11 +71,11 @@ clrbnit_magic.0004 = {
 				trigger_event = clrbnit_magic.2001 #city
 				trigger_event = clrbnit_magic.2002 #guild_halls
 				trigger_event = clrbnit_magic.2003 #capital_bureau
-			}
-			else_if = {#Plus 100
-				limit = {
-					has_character_flag = enable_vassal_magic_build
-				}
+                        }
+                        if = {#Plus 100
+                                limit = {
+                                        has_character_flag = enable_vassal_magic_build
+                                }
 				trigger_event = clrbnit_magic.0188 #Watermills
 				trigger_event = clrbnit_magic.0189 #Windmills
 				trigger_event = clrbnit_magic.0190 #Caravanserai
