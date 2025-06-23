@@ -1,0 +1,48 @@
+namespace = magical_manager
+
+magical_manager.0001 = {
+    type = character_event
+    picture = { reference = "GFX_magical_banner" }
+    title = magical_manager.0001.t
+    desc = magical_manager.0001.desc
+    theme = stewardship_domain_focus
+    override_background = { reference = "GFX_magical_throneroom" }
+    left_portrait = root
+
+    immediate = {
+        open_window = magical_manager_window
+    }
+
+    option = {
+        name = magical_manager.0001.enable
+        add_character_flag = magical_enable_build
+    }
+    option = {
+        name = magical_manager.0001.disable
+        remove_character_flag = magical_enable_build
+    }
+    option = {
+        name = magical_manager.0001.about
+        trigger_event = magical_manager.9999
+    }
+    option = {
+        name = magical_manager.0001.exit
+    }
+}
+
+magical_manager.9999 = {
+    type = character_event
+    picture = { reference = "GFX_magical_banner" }
+    title = magical_manager.9999.t
+    desc = magical_manager.9999.desc
+    theme = stewardship_domain_focus
+    override_background = { reference = "GFX_magical_throneroom" }
+
+    option = {
+        name = magical_manager.9999.back
+        trigger_event = magical_manager.0001
+    }
+    option = {
+        name = magical_manager.9999.exit
+    }
+}
