@@ -1,0 +1,17 @@
+l_english:
+  magical_aaa_manager_decision: "Automagic Architect"
+  magical_aaa_manager_decision_desc: "Open the Automagic Architect manager to control magical building automation."
+  magical_aaa_manager_decision_tooltip: "Open the Automagic Architect window."
+  magical_aaa_manager_decision_confirm: "Confirm"
+
+  magical_manager.0001.t: "Automagic Architect"
+  magical_manager.0001.desc: "Configure magical construction for your realm."
+  magical_manager.0001.enable: "Enable Magic Build"
+  magical_manager.0001.disable: "Disable Magic Build"
+  magical_manager.0001.about: "About"
+  magical_manager.0001.exit: "Exit"
+
+  magical_manager.9999.t: "Automagic Architect — Credits"
+  magical_manager.9999.desc: "Automagic Architect was created to enhance your magical city building."
+  magical_manager.9999.back: "Back"
+  magical_manager.9999.exit: "Exit"
