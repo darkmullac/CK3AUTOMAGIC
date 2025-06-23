@@ -1,0 +1,57 @@
+﻿namespace = magic_build_manager
+
+magic_build_manager.0001 = {
+    type = character_event
+    picture = { reference = "gfx/interface/magical_header_gems" }
+    title = magic_build_manager.0001.t
+    desc = magic_build_manager.0001.desc
+    theme = stewardship_domain_focus
+    left_portrait = root
+
+    option = {
+        name = magic_build_manager.0001.enable
+        trigger = { NOT = { has_character_flag = enable_magic_build } }
+        add_character_flag = enable_magic_build
+        trigger_event = clrbnit_magic.0003
+    }
+    option = {
+        name = magic_build_manager.0001.enable_vassal
+        trigger = { NOT = { has_character_flag = enable_vassal_magic_build } }
+        add_character_flag = enable_vassal_magic_build
+        trigger_event = clrbnit_magic.0003
+    }
+    option = {
+        name = magic_build_manager.0001.disable
+        trigger = {
+            OR = {
+                has_character_flag = enable_magic_build
+                has_character_flag = enable_vassal_magic_build
+            }
+        }
+        remove_character_flag = enable_magic_build
+        remove_character_flag = enable_vassal_magic_build
+        trigger_event = clrbnit_magic.0003
+    }
+    option = {
+        name = magic_build_manager.0001.credits
+        trigger_event = magic_build_manager.9999
+    }
+    option = {
+        name = magic_build_manager.0001.exit
+    }
+}
+
+magic_build_manager.9999 = {
+    type = character_event
+    title = magic_build_manager.9999.t
+    desc = magic_build_manager.9999.desc
+
+    option = {
+        name = magic_build_manager.9999.back
+        trigger_event = magic_build_manager.0001
+    }
+    option = {
+        name = magic_build_manager.9999.exit
+    }
+}
+ 
