@@ -1,0 +1,646 @@
+
+widget = {
+	name = "mainmenu_panel_bottom"
+	parentanchor = center
+	size = { 100% 100% }
+
+	state = {
+		name = _show
+		using = Animation_FadeIn_Standard
+		start_sound = {
+			soundeffect = "event:/SFX/UI/Frontend/sfx_ui_frontend_window_show"
+		}
+	}
+
+	state = {
+		name = _hide
+		using = Animation_FadeOut_Standard
+		start_sound = {
+			soundeffect = "event:/SFX/UI/Frontend/sfx_ui_frontend_window_hide"
+		}
+	}
+
+	widget = {
+		parentanchor = center
+		size = { 1920 1200 } # Warcraft
+		scale = "[ScaleToFitElementInside('(int32)1920', '(int32)1080')]"
+
+		state = {
+			name = "main_menu_continue"
+			duration = 0.6
+			delay = 1
+			using = Animation_Curve_Default
+
+			alpha = 0
+		}
+
+		icon = {
+			parentanchor = center
+			size = { 100% 100% }
+			# Warcraft
+			texture = "gfx/interface/buttons/main_menu_stuff/icecrown_bg.dds"
+
+			modify_texture = {
+				name = "fade"
+				texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+				blend_mode = alphamultiply
+				translate_uv = { 1 0 }
+				alpha = 0
+			}
+
+			state = {
+				name = "main_menu_continue"
+				duration = 1
+				bezier = { 0.5 0 1 0.5 }
+
+				modify_texture = {
+					name = "fade"
+					translate_uv = { -1 0 }
+					alpha = 1
+				}
+			}
+		}
+
+		widget = {
+			# Warcraft
+			size = { 100% 100% }
+			icon =	{
+				name = "event_window_widget_vfx_snow"
+				size = { 100% 100% }
+				texture = "gfx/particles/weather.dds"
+				gfxtype = icongfx
+				#color = { SnowFallSpeed, SnowWaveSpeed, SnowWindStrength, SnowFogStrength }
+				color = { 0.05 0.08 0.0 0.0 }
+				effectname = "Snow"
+				shaderfile = "gfx/FX/pdxgui_event_vfx.shader"
+				mipmaplodbias = -1
+			}
+		}
+		# Warcraft End
+		# Warcraft
+		icon = {
+			name = "wc_work_work"
+			parentanchor = left|top
+			position = { 50 75 }
+			texture = "gfx/interface/buttons/main_menu_stuff/wc_3_logo.dds"
+			
+			# Warcraft
+			#modify_texture = {
+			#	texture = "gfx/interface/component_masks/mask_rough_edges.dds"
+			#	blend_mode = alphamultiply
+			#}
+		}
+		# Warcraft End
+
+		widget = {
+			name = "left_panel"
+			parentanchor = right|vcenter
+			position = { -100 -700 }
+			size = { 550 915 }
+			alpha = 0
+			
+
+			@duration_button_enter = 0.1
+			@duration_button_leave = 0.5
+
+			# Appear bounce animation
+			state = {
+				name = a
+				next = b
+				duration = 1
+				trigger_on_create = yes
+				position_y = -600
+			}
+
+			state = {
+				name = b
+				next = c
+				duration = 0.4
+				bezier = { 0.5 0 1 0.5 }
+
+				position_y = 0
+				alpha = 1
+			}
+
+			state = {
+				name = c
+				next = d
+				duration = 0.1
+				bezier = { 0 0.5 0.5 1 }
+
+				position_y = -20
+			}
+
+			state = {
+				name = d
+				next = e
+				duration = 0.1
+				bezier = { 0.5 0 1 0.5 }
+
+				position_y = 0
+			}
+
+			state = {
+				name = e
+				next = f
+				duration = 0.05
+				bezier = { 0 0.5 0.5 1 }
+
+				position_y = -5
+			}
+
+			state = {
+				name = f
+				next = "glow_1"
+				duration = 0.05
+				bezier = { 0.5 0 1 0.5 }
+
+				position_y = 0
+			}
+
+			# Warcraft
+			vbox = {
+				spacing = 30
+				vbox = {
+					datacontext = "[FrontEndMainView.AccessLoadView]"
+					margin = { 90 60 }
+					using = Warcraft_bg_and_ramka
+
+
+					vbox = {
+						#margin_top = 15
+						#margin_bottom = 20
+						spacing = 25
+
+						vbox = {
+							spacing = 45
+
+							hbox = {
+								using = Warcraft_button_bg
+								small_button_frontend_wc = {
+									name = "new_game_button"
+									text = "NEW_GAME"
+									fontsize = 20
+									onclick = "[FrontEndMainView.OnNewGame]"
+								}
+								small_button_frontend_wc = {
+									name = "account_button"
+									text = ""
+									onclick = "[FrontEndMainView.OnLogin]"
+									enabled = "[Not(POPSStatusIsLoggingIn)]"
+									tooltip = "[SelectLocalization( POPSStatusIsLoggedIn, 'FRONTEND_LOGGED_IN', 'FRONTEND_LOGIN_FOR_MUTLIPLAYER_TT' )]"
+									size = { 57 57 }
+
+									icon_circle_green = {
+										name = "online"
+										visible = "[And(POPSStatusIsLoggedIn, Not(POPSStatusIsLoggingIn))]"
+										size = { 15 15 }
+										parentanchor = center
+									}
+									icon_circle_green = {
+										name = "offline"
+										visible = "[And(Not(POPSStatusIsLoggedIn), Not(POPSStatusIsLoggingIn))]"
+										size = { 15 15 }
+										using = Color_Red
+										parentanchor = center
+									}
+
+									pops_load_indicator = {
+										visible = "[POPSStatusIsLoggingIn]"
+										size = { 15 15 }
+										parentanchor = center
+									}
+								}
+							}
+
+							hbox = {
+								using = Warcraft_button_bg
+								vbox = {
+									small_button_frontend_wc = {
+										name = "load_game_button_disabled"
+										visible = "[Not(FrontEndLoadView.CanDoContinue)]"
+										enabled = no
+										size = { 294 57 }
+
+										text = "LOAD"
+										default_format = "#weak"
+										fontsize = 20
+										tooltip = FRONTEND_NO_CONTINUE_TT
+
+									}
+
+									small_button_frontend_wc = {
+										name = "load_game_button"
+										visible = "[FrontEndLoadView.CanDoContinue]"
+										text = "LOAD"
+										fontsize = 20
+										onclick = "[FrontEndMainView.OnLoad]"
+
+										state = {
+											name = _mouse_hierarchy_enter
+											on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_load_leave','main_menu_glow_load_enter')]"
+										}
+
+										state = {
+											name = _mouse_hierarchy_leave
+											on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_load_enter','main_menu_glow_load_leave')]"
+										}
+									}
+								}
+
+								vbox = {
+									small_button_frontend_wc = {
+										name = "continue_button_disabled"
+										visible = "[Not(FrontEndLoadView.CanDoContinue)]"
+										enabled = no
+										size = { 57 57 }
+
+										text = ""
+										default_format = "#weak"
+										fontsize = 20
+										tooltip = FRONTEND_NO_CONTINUE_TT
+
+									}
+
+									small_button_frontend_wc = {
+										name = "continue_button"
+										datacontext = "[FrontEndLoadView.GetContinueSave]"
+										visible = "[FrontEndLoadView.CanDoContinue]"
+										enabled = "[Not( SaveGameItem.HasMissingDLCs )]"
+										onclick = "[PdxGuiTriggerAllAnimations('main_menu_continue')]"
+										clicksound = "event:/SFX/UI/Generic/sfx_ui_generic_start_game"
+										size = { 57 57 }
+
+										state = {
+											name = _mouse_hierarchy_enter
+											on_start = "[PdxGuiInterruptAllAnimations('main_menu_glow_exit_leave')]"
+											on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_continue_leave','main_menu_glow_continue_enter')]"
+										}
+
+										state = {
+											name = _mouse_hierarchy_leave
+											on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_continue_enter','main_menu_glow_continue_leave')]"
+										}
+
+										state = {
+											name = "main_menu_continue"
+											delay = 1.5
+											on_finish = "[FrontEndLoadView.OnContinue]"
+										}
+
+										state = {
+											name = _mouse_release
+											on_start = "[FrontEndLoadView.PreContinueSaveCheck]"
+										}
+
+										text = ""
+										fontsize = 20
+										tooltip = FRONTEND_CONTINUE_TT
+
+										hbox = {
+											parentanchor = center
+											alwaystransparent = yes
+											margin_right = 9
+											margin_top = 3
+
+											#ironman_save_icon = {
+											#	visible = "[SaveGameItem.IsIronmanSave]"
+											#	tooltip = "LOAD_IRONMAN_TOOLTIP"
+											#}
+
+											#invalid_save_icon = {
+											#	visible = "[SaveGameItem.HasMissingDLCs]"
+											#	tooltip = "[SaveGameItem.GetMissingDLCInfo]"
+											#}
+
+											expand = {
+												alwaystransparent = yes
+											}
+
+											coat_of_arms_icon = {
+												name = "realm_flag"
+												alwaystransparent = yes
+												
+
+												size = { 35 35 }
+												coat_of_arms_slot = "[SaveGameItem.GetCoatOfArms.GetSlot('(int32)124','(int32)124')]"
+												coat_of_arms = "[SaveGameItem.GetCoatOfArms.GetTexture('(int32)124','(int32)124')]"
+												coat_of_arms_mask = "[SaveGameItem.GetPlayerGovernment.GetRealmMask]"
+
+												#coa_realm_overlay  = {
+												#	texture = "[SaveGameItem.GetPlayerGovernment.GetRealmFrame('(int32)62')]"
+												#	frame = "[SaveGameItem.GetPlayerTier]"
+												#	framesize = { 45 53 }
+												#	size = { 45 53 }
+												#}
+												#
+												#coa_realm_topframe  = {
+												#	texture = "gfx/interface/coat_of_arms/topframe_62.dds"
+												#	frame = "[SaveGameItem.GetPlayerTier]"
+												#	framesize = { 45 53 }
+												#	size = { 45 53 }
+												#}
+											}
+										}
+									}
+								}
+							}
+							hbox = {
+								using = Warcraft_button_bg
+								visible = "[And( POPSStatusIsLoggedIn, Not( POPStatusIsUserNameEmpty ) )]"
+
+								small_button_frontend_wc = {
+									name = "host_button"
+									text = "HOST_GAME"
+									fontsize = 20
+									onclick = "[FrontEndMainView.OnHost]"
+									onclick = "[RefreshIllustration]"
+									enabled = "[JominiIsMultiplayerAccessible]"
+									tooltip = "[JominiGetMultiplayerAccessibleString]"
+
+									state = {
+										name = _mouse_hierarchy_enter
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_host_leave','main_menu_glow_host_enter')]"
+									}
+
+									state = {
+										name = _mouse_hierarchy_leave
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_host_enter','main_menu_glow_host_leave')]"
+									}
+								}
+
+								small_button_frontend_wc = {
+									name = "join_button"
+									text = ""
+									fontsize = 20
+									onclick = "[FrontEndMainView.OnMultiPlayer]"
+									onclick = "[RefreshIllustration]"
+									enabled = "[JominiIsMultiplayerAccessible]"
+									tooltip = "FRONTEND_JOIN_MULTIPLAYER"
+									size = { 57 57 }
+									icon = {
+										size = { 33 33 }
+										parentanchor = center
+										texture = "gfx/interface/buttons/main_menu_stuff/wc_join_mp.dds"
+									}
+
+									state = {
+										name = _mouse_hierarchy_enter
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_join_leave','main_menu_glow_join_enter')]"
+									}
+
+									state = {
+										name = _mouse_hierarchy_leave
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_join_enter','main_menu_glow_join_leave')]"
+									}
+								}
+							}
+
+							hbox = {
+								using = Warcraft_button_bg
+								visible = "[Or( Not( POPSStatusIsLoggedIn ), POPStatusIsUserNameEmpty )]"
+
+								small_button_frontend_wc = {
+									name = "host_button"
+									text = "HOST_GAME"
+									default_format = "#weak"
+									fontsize = 20
+									onclick = "[FrontEndMainView.OnLogin]"
+									tooltip = "[JominiGetMultiplayerAccessibleString]"
+
+									state = {
+										name = _mouse_hierarchy_enter
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_host_leave','main_menu_glow_host_enter')]"
+									}
+
+									state = {
+										name = _mouse_hierarchy_leave
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_host_enter','main_menu_glow_host_leave')]"
+									}
+
+									icon_online_offline = {
+										parentanchor = right|vcenter
+										position = { -15 0 }
+										frame = 2
+									}
+								}
+
+								small_button_frontend_wc = {
+									name = "join_button"
+									text = ""
+									default_format = "#weak"
+									fontsize = 20
+									onclick = "[FrontEndMainView.OnLogin]"
+									tooltip = "FRONTEND_JOIN_MULTIPLAYER"
+									size = { 57 57 }
+
+									state = {
+										name = _mouse_hierarchy_enter
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_join_leave','main_menu_glow_join_enter')]"
+									}
+
+									state = {
+										name = _mouse_hierarchy_leave
+										on_start = "[PdxGuiInterruptThenTriggerAllAnimations('main_menu_glow_join_enter','main_menu_glow_join_leave')]"
+									}
+
+									icon_online_offline = {
+										parentanchor = right|vcenter
+										position = { -15 0 }
+										frame = 2
+									}
+								}
+							}
+
+							button_frontend_wc = {
+								using = Warcraft_button_bg
+								name = "settings_button"
+								text = "SETTINGS"
+								fontsize = 20
+								onclick = "[FrontEndMainView.OnSettings]"
+							}
+							button_frontend_wc = {
+								using = Warcraft_button_bg
+								name = "encuclopedia_button"
+								text = "HEADING_ENCYCLOPEDIA"
+								fontsize = 20
+								onclick = "[ToggleEncyclopedia]"
+							}
+
+							button_frontend_wc = {
+								using = Warcraft_button_bg
+								name = "credits_button"
+								text = "CREDITS"
+								onclick = "[FrontEndMainView.OnCredits]"
+							}
+
+						}
+					}
+
+					expand = {}
+				}
+
+				#Exist Widget
+				vbox = {
+					datacontext = "[FrontEndMainView.AccessLoadView]"
+					margin = { 90 70 }
+					using = Warcraft_bg_and_ramka
+
+					vbox = {
+						using = Warcraft_button_bg
+						button_frontend_wc = {
+							name = "exit_game_button"
+							visible = yes
+							text = "EXIT_TO_DESKTOP"
+							fontsize = 20
+							onclick = "[FrontEndMainView.OnQuit]"
+						}
+					}
+				}
+			}
+			widget = {
+				parentanchor = hcenter
+				size = { 115 315 }
+				position = { -120 -290 }
+				background = {
+					texture = "gfx/interface/buttons/main_menu_stuff/wc_bg_chain.dds"
+				}
+			}
+			widget = {
+				parentanchor = hcenter
+				size = { 115 315 }
+				position = { 80 -290 }
+				background = {
+					texture = "gfx/interface/buttons/main_menu_stuff/wc_bg_chain.dds"
+				}
+			}
+		}
+	}
+
+	clickable_version_number = {
+		parentanchor = bottom|right
+		position = { -15 -15 }
+
+		using = tooltip_se
+
+		blockoverride "background"
+		{
+
+		}
+	}
+
+	error_horse = {
+		visible = "[Not(ReleaseMode)]"
+		parentanchor = bottom|right
+		position = { -80 -90 }
+	}
+	loaded_mods_icon = {
+		visible = "[And( HasLoadedMods, Not(ReleaseMode))]"
+		parentanchor = bottom|right
+		tooltip = "[GetLoadedMods]"
+		position = { -120 -85 }
+	}
+
+	widget = {
+		parentanchor = bottom|left
+		size = { 850 100 }
+		position = { 10 -20}
+		allow_outside = yes
+
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+
+			vbox = {
+				layoutpolicy_vertical = expanding
+				margin_right = 10
+				expand = {}
+
+				# Warcraft - remove
+				# text_single = {
+				# 	text = "SOCIALS"
+				# 	autoresize = yes
+				# 	max_width = 70
+				# 	minimumsize = { 0 25 }
+				# 	align = nobaseline
+				# 	using = Font_Size_Medium
+				# }
+
+				# spacer = {
+				# 	size = { 1 24 }
+				# }
+
+				text_single = {
+					text = "DLC"
+					autoresize = yes
+					max_width = 70
+					minimumsize = { 0 25 }
+					align = nobaseline
+					using = Font_Size_Medium
+				}
+
+				expand = {}
+			}
+
+			# Warcraft - remove
+			vbox = {
+				layoutpolicy_horizontal = expanding
+				layoutpolicy_vertical = expanding
+				spacing = 4
+
+				# hbox = {
+				# 	layoutpolicy_horizontal = expanding
+				# 	spacing = 8
+
+				# 	button_standard = {
+				# 		size = { 44 44 }
+
+				# 		icon = {
+				# 			size = { 100% 100%}
+				# 			texture = "gfx/interface/icons/social_media/youtube_button.dds"
+				# 		}
+				# 		onclick = "[FrontEndMainView.OnOpenYoutubeUrl]"
+				# 		tooltip = youtube_tooltip
+				# 		using = tooltip_ne
+				# 	}
+
+				# 	button_standard = {
+				# 		size = { 44 44 }
+
+				# 		icon = {
+				# 			size = { 100% 100%}
+				# 			texture = "gfx/interface/icons/social_media/discord_button.dds"
+				# 		}
+				# 		onclick = "[FrontEndMainView.OnOpenDiscordUrl]"
+				# 		tooltip = discord_tooltip
+				# 		using = tooltip_ne
+				# 	}
+
+				# 	expand = {}
+				# }
+
+				hbox = { # DLCs
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					spacing = 10
+
+					hbox = {
+						hbox = {
+							datamodel = "[FrontEndMainView.GetDlcCollection.GetDlcs]"
+							spacing = 5
+
+							item = {
+								dlc_button = {
+									using = tooltip_nw
+								}
+							}
+						}
+
+						expand = {}
+					}
+				}
+			# Warcraft, We don't use Challenge Characters
+		}
+	}
+}
+
