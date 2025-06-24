@@ -1,0 +1,46 @@
+﻿GFX_magical_throneroom = {
+    background = {
+        reference = "gfx/interface/magical_throneroom.dds"
+        environment = ""
+        ambience = ""
+    }
+}
+
+GFX_magical_banner = {
+    background = {
+        reference = "gfx/interface/magical_banner.dds"
+        environment = ""
+        ambience = ""
+    }
+}
+
+GFX_magical_castle_bg = {
+    background = {
+        reference = "gfx/interface/magical_castle_bg.dds"
+        environment = ""
+        ambience = ""
+    }
+}
+
+GFX_magical_icon = {
+    background = {
+        reference = "gfx/interface/magical_icon.dds"
+        environment = ""
+        ambience = ""
+    }
+}
+
+#Magical Override Backgrounds
+magical_throneroom = {
+    background = {
+        reference = "gfx/interface/magical_throneroom.dds"
+        ambience = ""
+    }
+}
+
+magical_banner = {
+    background = {
+        reference = "gfx/interface/magical_banner.dds"
+        ambience = ""
+    }
+}
